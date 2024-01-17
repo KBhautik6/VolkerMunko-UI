@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { GlobalStyles } from "../Global.styled";
 
 export const StyledSection = styled.section`
   display: flex;
@@ -148,7 +149,7 @@ export const StyledLeftContentHeading = styled.h3`
 export const StyledLeftContentText = styled.div`
   width: 562px;
   height: 86px;
-  font-family: Nunito;
+  font-family: "Nunito";
   font-size: 18px;
   line-height: 1.72;
   letter-spacing: -0.18px;

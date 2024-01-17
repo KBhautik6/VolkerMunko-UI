@@ -30,8 +30,7 @@ export const StyledProductCurve = styled.img`
   position: relative;
 `;
 
-export const StyledProductContent = styled.div`
-`;
+export const StyledProductContent = styled.div``;
 
 export const StyledProductHeadingWrapper = styled.div``;
 
@@ -46,21 +45,21 @@ export const StyledProductHeading = styled.h3`
 
 export const StyledProductContentText = styled.p`
   margin: 2.6px 214px 48px;
-  font-family: Nunito;
+  font-family: "Nunito";
   font-size: 16px;
   line-height: 2.19;
   letter-spacing: -0.16px;
   text-align: center;
   color: #37415c;
 
-  @media screen and (max-width:991px){
-  margin: 24px 2px 23px 1px;
-  font-family: 'Nunito';
-  font-size: 12px;
-  line-height: 1.67;
-  letter-spacing: -0.12px;
-  text-align: center;
-  color: #37415c;
+  @media screen and (max-width: 991px) {
+    margin: 24px 2px 23px 1px;
+    font-family: "Nunito";
+    font-size: 12px;
+    line-height: 1.67;
+    letter-spacing: -0.12px;
+    text-align: center;
+    color: #37415c;
   }
 `;
 
@@ -73,16 +72,17 @@ export const StyledProductButtonWrapper = styled.div`
   border-radius: 50px;
   background-color: #ffffff;
 
-  @media screen and (max-width:991px){
-    margin:auto;
-    text-align:center;
-    width:208px;
-    height:15px;
+  @media screen and (max-width: 991px) {
+    margin: auto;
+    text-align: center;
+    width: 208px;
+    height: 15px;
   }
 `;
 
 export const StyledProductBtn = styled.div`
-  cursor:pointer;`;
+  cursor: pointer;
+`;
 
 export const StyledProductPrivateBtn = styled.button`
   width: 200px;
@@ -92,16 +92,16 @@ export const StyledProductPrivateBtn = styled.button`
   background-color: #3f3f40;
   border: none;
 
-  @media screen and (max-width:991px){
+  @media screen and (max-width: 991px) {
     width: 104px;
-  height: 15px;
-  margin: 0 0 0 7px;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 0.75;
-  letter-spacing: -0.12px;
-  text-align: center;
-  color: #fff;
+    height: 15px;
+    margin: 0 0 0 7px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 0.75;
+    letter-spacing: -0.12px;
+    text-align: center;
+    color: #fff;
   }
 `;
 
@@ -112,16 +112,16 @@ export const StyledProductCorporateBtn = styled.button`
   border-radius: 50px;
   border: none;
 
-@media screen and (max-width:991px){
+  @media screen and (max-width: 991px) {
     width: 104px;
-  height: 15px;
-  margin: 0 0 0 7px;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 0.75;
-  letter-spacing: -0.12px;
-  text-align: center;
-}
+    height: 15px;
+    margin: 0 0 0 7px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 0.75;
+    letter-spacing: -0.12px;
+    text-align: center;
+  }
 `;
 
 export const PrivateIcon = styled(FaUser)`
@@ -141,7 +141,7 @@ export const StyledProductServicesList = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 `;
 
 export const StyledProductList = styled.li`
@@ -158,20 +158,20 @@ export const StyledProductList = styled.li`
 
   &:hover {
     background-color: black;
-    color: white;
+    color: #ffffff;
 
     &::before {
-      content: "It is a long established fact...";
+      content: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable EnglishLorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable Englishthat it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English";
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: black;
+      background-color: #414143;
       color: white;
       padding: 20px;
       box-sizing: border-box;
-      transform: rotateY(180deg);
+      transform: rotateY(360deg);
       transform-origin: top;
       transition: transform 0.3s ease;
     }
@@ -180,6 +180,10 @@ export const StyledProductList = styled.li`
 
 export const StyledProductMoreInfoImgWrapper = styled.div`
   text-align: right;
+
+  ${StyledProductList}:hover & {
+    visibility: visible;
+  }
 `;
 
 export const StyledProductMoreInfoImg = styled.img`
@@ -187,6 +191,10 @@ export const StyledProductMoreInfoImg = styled.img`
   height: 38.3px;
   text-align: center;
   object-fit: contain;
+
+  ${StyledProductList}:hover & {
+    visibility: visible;
+  }
 `;
 
 export const StyledServiceImageWrapper = styled.div`
