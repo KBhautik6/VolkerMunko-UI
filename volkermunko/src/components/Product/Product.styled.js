@@ -81,7 +81,8 @@ export const StyledProductButtonWrapper = styled.div`
   }
 `;
 
-export const StyledProductBtn = styled.div``;
+export const StyledProductBtn = styled.div`
+  cursor:pointer;`;
 
 export const StyledProductPrivateBtn = styled.button`
   width: 200px;
@@ -144,6 +145,7 @@ export const StyledProductServicesList = styled.ul`
 `;
 
 export const StyledProductList = styled.li`
+  position: relative;
   width: 295px;
   height: 400px;
   margin: 89px 0 38px 30px;
@@ -151,6 +153,29 @@ export const StyledProductList = styled.li`
   border-radius: 20px;
   border: solid 1px #e9e5e5;
   background-color: #fff;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: black;
+    color: white;
+
+    &::before {
+      content: "It is a long established fact...";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      transform: rotateY(180deg);
+      transform-origin: top;
+      transition: transform 0.3s ease;
+    }
+  }
 `;
 
 export const StyledProductMoreInfoImgWrapper = styled.div`
