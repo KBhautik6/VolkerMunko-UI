@@ -1,10 +1,14 @@
-import './App.css';
 import React from "react";
+import { AssetManagement } from "./components/Asset/Asset";
+import { Product } from "./components/Product/Product";
 
-export const App=()=> {
+const App = () => {
   return (
     <div className="App">
+      {/* <AssetManagement /> */}
+      <Product />
     </div>
   );
-}
+};
 
+export default App;
