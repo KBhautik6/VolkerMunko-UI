@@ -5,16 +5,17 @@ import { Product } from "./components/Product/Product";
 import { WealthManagement } from "./components/WealthManagement/WealthManagement";
 import { Contact } from "./components/Contact/Contact";
 import { CompleteFinance } from "./components/CompleteFinance/CompleteFinance";
-
+import {YourAdvantage} from "./components/YourAdvantage/YourAdvantage"
 const App = () => {
   return (
     <div className="App">
       <GlobalStyles />
-      {/* <AssetManagement /> */}
+      <AssetManagement />
       <CompleteFinance />
-      {/* <Product /> */}
-      {/* <WealthManagement /> */}
-      {/* <Contact /> */}
+      <Product />
+      <YourAdvantage/>
+      <WealthManagement />
+      <Contact />
     </div>
   );
 };

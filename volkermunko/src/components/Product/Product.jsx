@@ -27,20 +27,16 @@ export const Product = () => {
       <StyledSection>
         <StyledWrapper>
           <StyledWrapperInner>
-            {/* <StyledProductCurve src="https://i.ibb.co/8PZppBR/product.jpg" alt="product-curve"/> */}
-
             <StyledProductContent>
               <StyledProductHeadingWrapper>
                 <StyledProductHeading>Product & Solutions</StyledProductHeading>
               </StyledProductHeadingWrapper>
-
               <StyledProductContentText>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point aseof using Lorem Ipsum is that it has a more-or-less
                 normal distribution of letters
               </StyledProductContentText>
-
               <StyledProductButtonWrapper>
                 <StyledProductPrivateBtn>
                   <StyledProductBtn>
@@ -55,7 +51,6 @@ export const Product = () => {
                   </StyledProductBtn>
                 </StyledProductCorporateBtn>
               </StyledProductButtonWrapper>
-
               <StyledProductServicesWrapper>
                 <StyledProductServices>
                   <StyledProductServicesList>

@@ -7,7 +7,7 @@ import NunitoSemiBold from "../fonts/Nunito-SemiBold.ttf";
 import NunitoMedium from "../fonts/Nunito-Medium.ttf";
 
 export const GlobalStyles = createGlobalStyle`
-  body {
+  border-style {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
