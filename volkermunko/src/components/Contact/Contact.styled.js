@@ -153,3 +153,4 @@ export const StyledMail = styled.div`
   margin: 10px 0 0px 35px;
   font-family: "Nunito-Regular";
 `;
+
