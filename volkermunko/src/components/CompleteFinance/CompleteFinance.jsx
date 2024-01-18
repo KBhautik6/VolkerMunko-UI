@@ -52,7 +52,6 @@ export const CompleteFinance = () => {
                   <StyledButton>Contact now!</StyledButton>
                 </StyledButtonWrapper>
               </StyledLeftInner>
-
               <StyledRightInner>
                 <StyledRightContent>
                   <StyledExcellentHeadingWrapper>
@@ -76,7 +75,6 @@ export const CompleteFinance = () => {
                         />
                       </StyledImageWrapper>
                     </StyledImageBoxWrapper>
-
                     <StyledDescriptionWrapper>
                       <StyledDescription>
                         We regularly receive awards from independent institutes

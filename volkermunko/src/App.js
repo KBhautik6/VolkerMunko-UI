@@ -5,7 +5,7 @@ import { Product } from "./components/Product/Product";
 import { WealthManagement } from "./components/WealthManagement/WealthManagement";
 import { Contact } from "./components/Contact/Contact";
 import { CompleteFinance } from "./components/CompleteFinance/CompleteFinance";
-import {YourAdvantage} from "./components/YourAdvantage/YourAdvantage"
+import { YourAdvantage } from "./components/YourAdvantage/YourAdvantage";
 const App = () => {
   return (
     <div className="App">
@@ -13,7 +13,7 @@ const App = () => {
       <AssetManagement />
       <CompleteFinance />
       <Product />
-      <YourAdvantage/>
+      <YourAdvantage />
       <WealthManagement />
       <Contact />
     </div>

@@ -6,7 +6,7 @@ export const StyledSection = styled.section`
   justify-content: center;
   margin: 0;
   padding: 0;
-  position:relative;
+  position: relative;
 `;
 
 export const StyledWrapper = styled.div`
@@ -14,10 +14,10 @@ export const StyledWrapper = styled.div`
   width: 100%;
   height: 747px;
   background-image: linear-gradient(to bottom, #f8f8f8, #fff);
-  &::before{
-    content:"";
-    position:absolute;
-    background-image:url('https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/4c70244a-b294-4264-9b08-d933a2910183.svg');
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/4c70244a-b294-4264-9b08-d933a2910183.svg");
   }
 
   @media screen and (min-width: 747px) and (max-width: 1200px) {
@@ -26,6 +26,7 @@ export const StyledWrapper = styled.div`
     height: 747px;
   }
 `;
+
 export const StyledWrapperInner = styled.div``;
 
 export const StyledProductCurve = styled.img`
@@ -42,9 +43,8 @@ export const StyledProductHeadingWrapper = styled.div``;
 
 export const StyledProductHeading = styled.h3`
   text-align: center;
-  font-family:"Nunito-Bold";
+  font-family: "Nunito-Bold";
   font-size: 51px;
-  font-weight: bold;
   line-height: 1.55;
   letter-spacing: -0.51px;
   color: #14183e;

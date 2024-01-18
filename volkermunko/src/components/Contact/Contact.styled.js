@@ -12,6 +12,7 @@ export const StyledWrapper = styled.div`
 export const StyledInnerWrapper = styled.div`
   display: flex;
   justify-content: center;
+  justify-content: center;
   align-items: center;
 
   @media screen and (max-width: 991px) {

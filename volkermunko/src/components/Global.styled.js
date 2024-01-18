@@ -5,6 +5,8 @@ import NunitoRegular from "../fonts/Nunito-Regular.ttf";
 import NunitoLight from "../fonts/Nunito-Light.ttf";
 import NunitoSemiBold from "../fonts/Nunito-SemiBold.ttf";
 import NunitoMedium from "../fonts/Nunito-Medium.ttf";
+import QuicksandBold from "../fonts/Quicksand-Bold.ttf";
+// import QuicksandLight from './fonts/Quicksand-Light.ttf';
 
 export const GlobalStyles = createGlobalStyle`
   border-style {
@@ -48,4 +50,15 @@ export const GlobalStyles = createGlobalStyle`
     src: url(${NunitoMedium}) format('truetype');
     font-style: normal;
   }
+  @font-face {
+    font-family:'Quicksand-Bold' ;
+    src: url(${QuicksandBold}) format('truetype');
+    font-style: normal;
+  }
 `;
+
+// @font-face {
+//   font-family:'Quicksand-Light' ;
+//   src: url(${QuicksandLight}) format('truetype');
+//   font-style: normal;
+// }

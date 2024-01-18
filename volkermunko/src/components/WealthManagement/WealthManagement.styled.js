@@ -22,15 +22,15 @@ export const StyledSection = styled.section`
     right: 0;
     top: 167px;
 
-    @media screen and (max-width:991px) {
+    @media screen and (max-width: 991px) {
       width: 270px;
-    height: 290px;
-    background-size: 270px 290px;
-    top: 230px;
+      height: 290px;
+      background-size: 270px 290px;
+      top: 230px;
     }
   }
 
-  @media screen and (max-width:991px){
+  @media screen and (max-width: 991px) {
     height: auto;
     margin: auto;
   }
@@ -43,9 +43,9 @@ export const StyledContainer = styled.div`
   max-width: 1100px;
   margin: 0 auto;
 
-@media only screen and (max-width: 1199px) {
+  @media only screen and (max-width: 1199px) {
     padding: 0 20px;
-}
+  }
 `;
 
 export const StyledInnerWrapper = styled.div`
@@ -54,7 +54,7 @@ export const StyledInnerWrapper = styled.div`
   align-items: flex-start;
   padding: 180px 0;
 
-  @media screen and (max-width:991px) {
+  @media screen and (max-width: 991px) {
     flex-direction: column;
     align-items: flex-start;
     padding: 140px 0 70px;
@@ -90,15 +90,15 @@ export const StyledHeading = styled.div`
     background: #ffffff;
   }
 
-  @media screen and (max-width:991px){
+  @media screen and (max-width: 991px) {
     font-size: 23px;
     line-height: 1.29;
     margin: 0 0 30px 0;
 
-    &::before{
+    &::before {
       width: 95px;
-    height: 3px;
-    bottom: -30px;
+      height: 3px;
+      bottom: -30px;
     }
   }
 `;
@@ -106,7 +106,7 @@ export const StyledHeading = styled.div`
 export const StyledWealthListWrapper = styled.ul`
   list-style: none;
 
-  @media screen and (max-width:991px){
+  @media screen and (max-width: 991px) {
     margin: 300px 0 0;
   }
 `;
@@ -115,13 +115,13 @@ export const StyledWealthList = styled.li`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 0 0 0 0;
+  margin: 0;
   max-width: 490px;
   width: 100%;
   font-family: "Nunito-Regular";
 
-  @media screen and (max-width:991px){
-    margin:0 0px 20px -30px;
+  @media screen and (max-width: 991px) {
+    margin: 0 0px 20px -30px;
   }
 `;
 
@@ -136,8 +136,8 @@ export const StyledWealthListText = styled.p`
   line-height: 1.75;
   color: #f3f3f3;
 
-  @media screen and (max-width:991px){
-    font-size: 0.875rem;
+  @media screen and (max-width: 991px) {
+    font-size: 14px;
   }
 `;
 
@@ -150,10 +150,10 @@ export const StyledWealthRight = styled.div`
 export const StyledWealthRightInner = styled.div``;
 
 export const StyledWealthRightList = styled.ul`
-  margin: 550px 0 0 0 ;
+  margin: 550px 0 0 0;
   list-style: none;
 
-  @media screen and (max-width:991px){
-    margin:0 0 0 -30px ;
+  @media screen and (max-width: 991px) {
+    margin: 0 0 0 -30px;
   }
 `;

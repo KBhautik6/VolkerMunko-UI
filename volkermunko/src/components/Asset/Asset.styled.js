@@ -1,28 +1,6 @@
 import styled from "styled-components";
 import { GlobalStyles } from "../Global.styled";
 
-export const StyledSection = styled.section`
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-`;
-
-export const StyledWrapper = styled.div`
-  max-width: 1330px;
-  width: 100%;
-  height: 747px;
-  background-image: linear-gradient(to bottom, #f8f8f8, #fff);
-
-  @media screen and (min-width: 747px) and (max-width: 1200px) {
-    max-width: 1100px;
-    width: 100%;
-    height: 747px;
-  }
-`;
-
-export const StyledInner = styled.div``;
-
 export const StyledNavbarWrapper = styled.div`
   display: flex;
   align-items: center;
@@ -107,59 +85,130 @@ export const StyledNavbarContactButton = styled.button`
 // }
 // `
 
-export const StyledNavbarContent = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+export const StyledSection = styled.section`
+  background: linear-gradient(180deg, #f8f8f8, #fff);
+  margin: 20px;
+  position: relative;
+  padding: 125px 0 30px;
 
   @media screen and (max-width: 991px) {
-    flex-direction: column;
+    margin: 10px;
+    padding: 80px 0 50px;
   }
 `;
 
-export const StyledLeftContent = styled.div`
-  margin: 0 0 0 100px;
-  width: 49%;
-`;
+export const StyledWrapper = styled.div`
+  background: url("https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/315bba66-2840-4652-bca2-8c3ccf59bcb2.png")
+    no-repeat;
+  background-size: 660px 640px;
+  background-position: right 20px bottom 10px;
+  height: 650px;
 
-export const StyledLeftContentHeading = styled.h3`
-  width: 351px;
-  height: 149px;
-  font-family: "Nunito";
-  font-size: 56px;
-  font-weight: bold;
-  line-height: 1.41;
-  letter-spacing: -0.56px;
-  text-align: left;
-  color: #14183e;
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    background-size: contain;
+    height: auto;
+  }
 
   @media screen and (max-width: 991px) {
-    width: 188px;
-    height: 79px;
-    /* margin: 0 105px 0 0; */
-    /* font-family: Quicksand; */
-    font-size: 30px;
-    line-height: 1.37;
-    letter-spacing: -0.3px;
-    text-align: left;
-    color: #14183e;
+    background: none;
+  }
+`;
+
+export const StyledInner = styled.div`
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  max-width: 1088px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 991px) {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+`;
+
+export const StyledNavbarContent = styled.div``;
+
+export const StyledLeftContent = styled.div``;
+
+export const StyledLeftContentHeading = styled.h3`
+  font-family: "Quicksand-Bold";
+  font-size: 54px;
+  line-height: 1.41;
+  color: #14183e;
+  max-width: 565px;
+  width: 100%;
+  margin: 60px 0 40px;
+  position: relative;
+
+  @media screen and (max-width: 991px) {
+    font-size: 24px;
+    line-height: 1.29;
+    margin: 0 0 40px 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(180deg, #f8e9ed, #fbfbfb);
+    left: 0;
+    display: block;
+    width: 427px;
   }
 `;
 
 export const StyledLeftContentText = styled.div`
-  width: 562px;
-  height: 86px;
-  font-family: "Nunito";
-  font-size: 18px;
+  font-family: "Nunito-Regular";
+  font-size: 16px;
   line-height: 1.72;
   letter-spacing: -0.18px;
-  color: #37415c;
+  color: #3b3b3c;
+  max-width: 565px;
+  width: 100%;
+
+  @media screen and (max-width: 991px) {
+    font-size: 12px;
+    line-height: 1.75;
+  }
+`;
+export const StyledBannerImageWrapper = styled.div`
+  display: none;
+
+  @media screen and (max-width: 991px) {
+    display: block;
+    width: 100%;
+  }
+`;
+
+export const StyledBannerImage = styled.img`
+  width: 100%;
+  max-width: 600px;
+  margin: 30px 0 0;
 `;
 
 export const StyledLeftButtonWrapper = styled.div`
-  width: 207px;
+  position: relative;
+  width: 100%;
+  max-width: 210px;
   height: 60px;
-  margin: 66px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin: 50px 0 20px;
+  padding: 10px 20px;
+  font-family: "Nunito-Bold";
+  font-size: 1;
+  line-height: 1.25;
+  letter-spacing: -0.07px;
+  color: #ffffff;
+
+  @media screen and (max-width: 991px) {
+    margin: 20px 0 0 0;
+    height: 50px;
+    font-size: 14px;
+    max-width: 100%;
+  }
 `;
 
 export const StyledLeftBtn = styled.button`
@@ -171,18 +220,4 @@ export const StyledLeftBtn = styled.button`
   background-color: #3b3b3c;
   border-radius: 10px;
   padding: 19px 56px;
-`;
-
-export const StyledRightContent = styled.div`
-  width: 49%;
-  margin: 20px 0 0 100px;
-`;
-
-export const StyledRightInner = styled.div``;
-
-export const StyledRightImage = styled.img`
-  width: 562.3px;
-  height: 542.7px;
-  object-fit: contain;
-  margin: 0 9px -100px -72px;
 `;

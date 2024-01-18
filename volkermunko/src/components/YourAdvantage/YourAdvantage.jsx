@@ -11,9 +11,9 @@ import {
   StyledContainer,
   StyledWrapper,
   StyledRightYourAdvantage,
-  Shapeelips,
 } from "./YourAdvantage.styled";
-export const YourAdvantage=()=> {
+
+export const YourAdvantage = () => {
   return (
     <>
       <StyledSection>
@@ -30,7 +30,6 @@ export const YourAdvantage=()=> {
                     It is a long established fact that a reader will be
                     distracted
                   </StyledDescription>
-                  {/* <Shapeelips> </Shapeelips> */}
                   <StyledRightContent>
                     <p>
                       <li> You take center stage </li>
@@ -46,4 +45,4 @@ export const YourAdvantage=()=> {
       </StyledSection>
     </>
   );
-}
+};

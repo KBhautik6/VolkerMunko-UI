@@ -16,7 +16,6 @@ export const StyledInnerWrapper = styled.div`
   padding: 50px 0 100px;
   display: flex;
   justify-content: space-between;
-  /* align-items: flex-start;*/
 `;
 
 export const StyledLeftCompleteFinance = styled.div`
@@ -35,7 +34,7 @@ export const StyledLeftInner = styled.div``;
 
 export const StyledHeadingWrapper = styled.div`
   font-family: "Nunito-Regular";
-  font-size: 3.188rem;
+  font-size: 51px;
   font-weight: bold;
   line-height: 1.41;
   letter-spacing: -0.56px;
@@ -58,7 +57,7 @@ export const StyledHeadingWrapper = styled.div`
   }
 
   @media screen and (max-width: 991px) {
-    font-size: 1.5rem;
+    font-size: 24px;
     line-height: 1.29;
     margin: 0 0 40px 0;
   }
@@ -68,16 +67,14 @@ export const StyledHeading = styled.div``;
 
 export const StyledCompleteTextWrapper = styled.div`
   font-family: "Nunito-Regular";
-  font-size: 1.125rem;
-  font-weight: normal;
+  font-size: 16px;
   line-height: 1.72;
-  letter-spacing: -0.18px;
   color: #3b3b3c;
   max-width: 565px;
   width: 100%;
 
   @media screen and (max-width: 991px) {
-    font-size: 0.75rem;
+    font-size: 12px;
     line-height: 1.75;
   }
 `;
@@ -87,8 +84,8 @@ export const StyledCompleteText = styled.div``;
 export const StyledButtonWrapper = styled.button`
   position: relative;
   background: radial-gradient(#fff, #e6e6e6);
-  width: 100%;
   max-width: 210px;
+  width: 100%;
   height: 60px;
   display: flex;
   align-items: center;
@@ -98,10 +95,8 @@ export const StyledButtonWrapper = styled.button`
   margin: 50px 0 20px;
   padding: 10px 20px;
   font-family: "Nunito-Bold";
-  font-size: 1.125rem;
-  font-weight: bold;
+  font-size: 18px;
   line-height: 1.25;
-  letter-spacing: -0.07px;
   color: #14183e;
 `;
 
@@ -124,7 +119,7 @@ export const StyledRightContent = styled.div`
 
 export const StyledExcellentHeadingWrapper = styled.div`
   font-family: "Nunito-Bold";
-  font-size: 1.813rem;
+  font-size: 29px;
   font-weight: bold;
   line-height: 1.52;
   letter-spacing: -0.29px;
@@ -144,7 +139,7 @@ export const StyledExcellentHeadingWrapper = styled.div`
   }
 
   @media screen and (max-width: 991px) {
-    font-size: 1.063rem;
+    font-size: 17px;
     padding: 0 0 0 50px;
     margin: 40px 0 20px;
 
@@ -192,7 +187,7 @@ export const StyledLine = styled.div`
 
 export const StyledDescriptionWrapper = styled.div`
   font-family: "Nunito-Medium";
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1.75;
   letter-spacing: -0.16px;
@@ -201,7 +196,7 @@ export const StyledDescriptionWrapper = styled.div`
   margin: 40px 0 0;
 
   @media screen and (max-width: 991px) {
-    font-size: 0.75rem;
+    font-size: 12px;
   }
 `;
 
