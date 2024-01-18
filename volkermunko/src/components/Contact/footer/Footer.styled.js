@@ -11,7 +11,7 @@ export const StyledWrapper = styled.div`
   max-width: 1366px;
   margin: 0 auto;
 
-  @media (max-width: 991px) {
+  @media screen and (max-width: 991px) {
     max-width: max-content;
   }
 `;
@@ -41,7 +41,7 @@ export const StyledFooterIcon = styled.img`
   max-width: 300px;
   height: 198px;
 
-  @media screen and  (max-width: 991px) {
+  @media screen and (max-width: 991px) {
     max-width: 86px;
     height: 67px;
     padding: 113px 0 0 0;
@@ -51,23 +51,27 @@ export const StyledFooterIcon = styled.img`
 export const StyledFooterDescription = styled.div`
   padding: 12px 0 0 0;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   line-height: 2;
 `;
 
 export const StyledFooterHorizontalLine = styled.hr`
-  margin: 218px 0 0 0;
-  background-color: #fff;
+  margin: 100px 0 0 0;
+  background-color: #ffffff;
+
+  @media screen and (max-width: 991px) {
+    margin: 50px 0 0 0;
+  }
 `;
 
 export const StyledFooterDetails = styled.footer`
-  color: #fff;
+  color: #ffffff;
   margin: 0 19px 20px;
   padding: 33.3px 120px 0 118px;
   display: flex;
   justify-content: space-between;
 
-  @media screen and (max-width:991px) {
+  @media screen and (max-width: 991px) {
     margin: 0;
     padding: 0;
     flex-direction: column;
@@ -81,6 +85,6 @@ export const StyledRightContainer = styled.div`
 export const StyledVerticalLine = styled.div`
   height: 12px;
   width: 0;
-  border:1px solid #000;
+  border: 1px solid #000;
   margin: 0 12px 0;
 `;

@@ -14,7 +14,11 @@ export const StyledNavbarWrapper = styled.div`
 export const StyledNavbarLogo = styled.img`
   width: 120px;
   height: 72px;
-  padding: 34px 0 0 125px;
+  padding: 34px 0 0 78px;
+
+  @media screen and (max-width: 991px) {
+    padding: 0px;
+  }
 `;
 
 export const StyledNavbarTextWrapper = styled.div`
@@ -34,7 +38,6 @@ export const StyledNavbarWhyAssetMangement = styled.li`
     font-size: 20px;
     font-weight: 600;
     line-height: 0.65;
-    letter-spacing: -0.2px;
     color: #37415c;
     margin: 0 20px;
   }
@@ -52,7 +55,6 @@ export const StyledNavbarAboutUs = styled.li`
     font-size: 20px;
     font-weight: 600;
     line-height: 0.65;
-    letter-spacing: -0.2px;
     color: #37415c;
     margin: 0 20px;
   }
@@ -75,25 +77,13 @@ export const StyledNavbarContactButton = styled.button`
     font-size: 16px;
   }
 `;
-// export const StyledMobileViewWrapper=styled.div`
-// `
-
-// export const StyledMobileView=styled.img`
-// display:none;
-// @media screen(){
-
-// }
-// `
 
 export const StyledSection = styled.section`
   background: linear-gradient(180deg, #f8f8f8, #fff);
-  margin: 20px;
   position: relative;
-  padding: 125px 0 30px;
 
   @media screen and (max-width: 991px) {
     margin: 10px;
-    padding: 80px 0 50px;
   }
 `;
 
@@ -161,7 +151,6 @@ export const StyledLeftContentText = styled.div`
   font-family: "Nunito-Regular";
   font-size: 16px;
   line-height: 1.72;
-  letter-spacing: -0.18px;
   color: #3b3b3c;
   max-width: 565px;
   width: 100%;
@@ -200,7 +189,6 @@ export const StyledLeftButtonWrapper = styled.div`
   font-family: "Nunito-Bold";
   font-size: 1;
   line-height: 1.25;
-  letter-spacing: -0.07px;
   color: #ffffff;
 
   @media screen and (max-width: 991px) {
@@ -212,8 +200,8 @@ export const StyledLeftButtonWrapper = styled.div`
 `;
 
 export const StyledLeftBtn = styled.button`
-  font-family: "Rubik";
   text-align: center;
+  font-family: "Nunito-Regular";
   font-size: 18px;
   font-weight: 500;
   color: #ffffff;

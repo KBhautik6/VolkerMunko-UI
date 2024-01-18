@@ -5,12 +5,15 @@ import {
   StyledDescription,
   StyledHeading,
   StyledRightImage,
-  StyledInnerWrapper,
-  StyledLeftYourAdvantage,
+  StyledRightYourAdvantage,
   StyledSection,
   StyledContainer,
   StyledWrapper,
-  StyledRightYourAdvantage,
+  StyledRightWrapper,
+  StyledLeftYourAdvantage,
+  StyledContentList,
+  StyledContentNumber,
+  StyledContent,
 } from "./YourAdvantage.styled";
 
 export const YourAdvantage = () => {
@@ -19,27 +22,36 @@ export const YourAdvantage = () => {
       <StyledSection>
         <StyledContainer>
           <StyledWrapper>
-            <StyledInnerWrapper>
-              <StyledCard>
-                <StyledRightYourAdvantage>
-                  <StyledRightImage src="http://217.160.46.77/assets/images/advantages.png "></StyledRightImage>
-                </StyledRightYourAdvantage>
-                <StyledLeftYourAdvantage>
+            <StyledCard>
+              <StyledLeftYourAdvantage>
+                <StyledRightImage src="http://217.160.46.77/assets/images/advantages.png "></StyledRightImage>
+              </StyledLeftYourAdvantage>
+              <StyledRightYourAdvantage>
+                <StyledRightWrapper>
                   <StyledHeading>Your advantages at a glance</StyledHeading>
                   <StyledDescription>
                     It is a long established fact that a reader will be
                     distracted
                   </StyledDescription>
                   <StyledRightContent>
-                    <p>
-                      <li> You take center stage </li>
-                      <li> Your finances: easier than ever With the</li>
-                      <li> best partners at your side </li>
-                    </p>
+                    <StyledContentList>
+                      <StyledContentNumber>1</StyledContentNumber>
+                      <StyledContent>You are the focus</StyledContent>
+                    </StyledContentList>
+                    <StyledContentList>
+                      <StyledContentNumber>2</StyledContentNumber>
+                      <StyledContent>
+                        Your finances: easier than ever With the
+                      </StyledContent>
+                    </StyledContentList>
+                    <StyledContentList>
+                      <StyledContentNumber>3</StyledContentNumber>
+                      <StyledContent>best partners at your side</StyledContent>
+                    </StyledContentList>
                   </StyledRightContent>
-                </StyledLeftYourAdvantage>
-              </StyledCard>
-            </StyledInnerWrapper>
+                </StyledRightWrapper>
+              </StyledRightYourAdvantage>
+            </StyledCard>
           </StyledWrapper>
         </StyledContainer>
       </StyledSection>

@@ -76,7 +76,6 @@ export const StyledHeading = styled.div`
   font-size: 52px;
   font-weight: 500;
   line-height: 1.4;
-  letter-spacing: -0.51px;
   color: #ffffff;
   margin: 0 0 120px 0;
 

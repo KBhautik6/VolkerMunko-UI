@@ -46,25 +46,22 @@ export const StyledProductHeading = styled.h3`
   font-family: "Nunito-Bold";
   font-size: 51px;
   line-height: 1.55;
-  letter-spacing: -0.51px;
   color: #14183e;
 `;
 
 export const StyledProductContentText = styled.p`
-  margin: 2.6px 214px 48px;
+  margin: 3px 214px 48px;
   font-family: "Nunito-Regular";
   font-size: 16px;
   line-height: 2.19;
-  letter-spacing: -0.16px;
   text-align: center;
   color: #37415c;
 
   @media screen and (max-width: 991px) {
     margin: 24px 2px 23px 1px;
-    font-family: "Nunito";
+    font-family: "Nunito-Regular";
     font-size: 12px;
     line-height: 1.67;
-    letter-spacing: -0.12px;
     text-align: center;
     color: #37415c;
   }
@@ -106,7 +103,6 @@ export const StyledProductPrivateBtn = styled.button`
     font-size: 12px;
     font-weight: 500;
     line-height: 0.75;
-    letter-spacing: -0.12px;
     text-align: center;
     color: #fff;
   }
@@ -126,7 +122,6 @@ export const StyledProductCorporateBtn = styled.button`
     font-size: 12px;
     font-weight: 500;
     line-height: 0.75;
-    letter-spacing: -0.12px;
     text-align: center;
   }
 `;

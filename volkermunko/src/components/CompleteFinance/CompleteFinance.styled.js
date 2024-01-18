@@ -35,9 +35,7 @@ export const StyledLeftInner = styled.div``;
 export const StyledHeadingWrapper = styled.div`
   font-family: "Nunito-Regular";
   font-size: 51px;
-  font-weight: bold;
   line-height: 1.41;
-  letter-spacing: -0.56px;
   color: #14183e;
   max-width: 565px;
   width: 100%;
@@ -120,9 +118,7 @@ export const StyledRightContent = styled.div`
 export const StyledExcellentHeadingWrapper = styled.div`
   font-family: "Nunito-Bold";
   font-size: 29px;
-  font-weight: bold;
   line-height: 1.52;
-  letter-spacing: -0.29px;
   color: #14183e;
   position: relative;
   padding: 0 0 0 70px;
@@ -188,9 +184,7 @@ export const StyledLine = styled.div`
 export const StyledDescriptionWrapper = styled.div`
   font-family: "Nunito-Medium";
   font-size: 16px;
-  font-weight: normal;
   line-height: 1.75;
-  letter-spacing: -0.16px;
   color: #707684;
   text-align: center;
   margin: 40px 0 0;
