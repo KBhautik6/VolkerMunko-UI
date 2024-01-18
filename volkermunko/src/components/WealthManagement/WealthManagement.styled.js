@@ -10,9 +10,9 @@ export const StyledSection = styled.section`
   height: 1260.3px;
   margin-top: 900px;
 
-  &:before{
+  &:before {
     content: "";
-    background: url('https://i.postimg.cc/g2SBj5yr/househand.png');
+    background: url("https://i.postimg.cc/g2SBj5yr/househand.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 560px 620px;
@@ -28,7 +28,7 @@ export const StyledWrapper = styled.div``;
 
 export const StyledContainer = styled.div`
   width: 100%;
-  max-width: 1088px;
+  max-width: 1100px;
   margin: 0 auto;
 `;
 
@@ -50,7 +50,7 @@ export const StyledHeading = styled.div`
   position: relative;
   max-width: 565px;
   width: 100%;
-  font-family: 'Nunito-Bold';
+  font-family: "Nunito-Bold";
   font-size: 52px;
   font-weight: 500;
   line-height: 1.4;
@@ -58,15 +58,15 @@ export const StyledHeading = styled.div`
   color: #ffffff;
   margin: 0 0 120px 0;
 
-  &::before{
+  &::before {
     content: "";
     position: absolute;
     left: 0;
     bottom: -50px;
     height: 5px;
     width: 190px;
-    background:#ffffff;
-    }
+    background: #ffffff;
+  }
 `;
 
 export const StyledWealthListWrapper = styled.ul`
@@ -77,10 +77,10 @@ export const StyledWealthList = styled.li`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin:0 0 15px 0;
+  margin: 0 0 15px 0;
   max-width: 490px;
   width: 100%;
-  font-family:'Nunito';
+  font-family: "Nunito-Regular";
 `;
 
 export const StyledWealthCorrectIcon = styled.div`
@@ -88,7 +88,7 @@ export const StyledWealthCorrectIcon = styled.div`
 `;
 
 export const StyledWealthListText = styled.p`
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-size: 20px;
   font-weight: 400;
   line-height: 1.75;
@@ -96,16 +96,14 @@ export const StyledWealthListText = styled.p`
 `;
 
 export const StyledWealthRight = styled.div`
-    max-width: 500px;
-    width: 100%;
-    margin: 0 0 0 30px;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 0 0 30px;
 `;
 
-export const StyledWealthRightInner=styled.div`
-`
+export const StyledWealthRightInner = styled.div``;
 
-export const StyledWealthRightList=styled.ul`
-    margin-top: 550px;
-    list-style:none;
-`
-
+export const StyledWealthRightList = styled.ul`
+  margin-top: 550px;
+  list-style: none;
+`;

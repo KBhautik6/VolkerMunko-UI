@@ -10,14 +10,9 @@ export const WealthProps = (props) => {
     <>
       <StyledWealthList>
         <StyledWealthCorrectIcon>
-          <img
-            src={props.wicon}
-            alt="tickIcon"
-          />
+          <img src={props.wicon} alt="tickIcon" />
         </StyledWealthCorrectIcon>
-        <StyledWealthListText>
-            {props.wtext}
-        </StyledWealthListText>
+        <StyledWealthListText>{props.wtext}</StyledWealthListText>
       </StyledWealthList>
     </>
   );

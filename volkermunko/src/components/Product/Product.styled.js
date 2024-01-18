@@ -168,7 +168,7 @@ export const StyledProductList = styled.li`
       width: 100%;
       height: 100%;
       background-color: #414143;
-      color: white;
+      color: #ffffff;
       padding: 20px;
       box-sizing: border-box;
       transform: rotateY(360deg);

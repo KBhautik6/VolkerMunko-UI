@@ -10,9 +10,9 @@ import {
   StyledWealthListWrapper,
   StyledWealthRight,
   StyledWealthRightInner,
-  StyledWealthRightList
+  StyledWealthRightList,
 } from "./WealthManagement.styled";
-import {WealthProps} from "./WealthProps"
+import { WealthProps } from "./WealthProps";
 import { Wdata, WdataSecond } from "./WealthData";
 
 export const WealthManagement = () => {
@@ -29,12 +29,12 @@ export const WealthManagement = () => {
                     Vlotho
                   </StyledHeading>
                   <StyledWealthListWrapper>
-                    {Wdata.map((item)=>(
-                        <WealthProps
+                    {Wdata.map((item) => (
+                      <WealthProps
                         key={item.id}
                         wicon={item.wicon}
                         wtext={item.wtext}
-                        />
+                      />
                     ))}
                   </StyledWealthListWrapper>
                 </StyledWealthLeftWrapper>
@@ -42,15 +42,15 @@ export const WealthManagement = () => {
 
               <StyledWealthRight>
                 <StyledWealthRightInner>
-                    <StyledWealthRightList>
-                    {WdataSecond.map((item)=>(
-                        <WealthProps
+                  <StyledWealthRightList>
+                    {WdataSecond.map((item) => (
+                      <WealthProps
                         key={item.id}
                         wicon={item.wicon}
                         wtext={item.wtext}
-                        />
+                      />
                     ))}
-                    </StyledWealthRightList>
+                  </StyledWealthRightList>
                 </StyledWealthRightInner>
               </StyledWealthRight>
             </StyledInnerWrapper>
