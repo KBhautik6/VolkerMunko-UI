@@ -7,7 +7,7 @@ export const StyledSection = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: 1260.3px;
+  height: 1260px;
   margin-top: 900px;
 
   &:before {
@@ -75,7 +75,7 @@ export const StyledHeading = styled.div`
   font-family: "Nunito-Bold";
   font-size: 52px;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 74px;
   color: #ffffff;
   margin: 0 0 120px 0;
 
@@ -91,7 +91,7 @@ export const StyledHeading = styled.div`
 
   @media screen and (max-width: 991px) {
     font-size: 23px;
-    line-height: 1.29;
+    line-height: 30px;
     margin: 0 0 30px 0;
 
     &::before {
@@ -132,7 +132,7 @@ export const StyledWealthListText = styled.p`
   font-family: "Nunito-Regular";
   font-size: 20px;
   font-weight: 400;
-  line-height: 1.75;
+  line-height: 24px;
   color: #f3f3f3;
 
   @media screen and (max-width: 991px) {

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { FaUser } from "react-icons/fa";
 
 export const StyledSection = styled.section`
   display: flex;
@@ -31,7 +30,7 @@ export const StyledWrapperInner = styled.div``;
 
 export const StyledProductCurve = styled.img`
   width: 1336px;
-  height: 2197.4px;
+  height: 2198px;
   object-fit: contain;
   background-color: #f8f8f8;
   position: relative;
@@ -45,7 +44,7 @@ export const StyledProductHeading = styled.h3`
   text-align: center;
   font-family: "Nunito-Bold";
   font-size: 51px;
-  line-height: 1.55;
+  line-height: 78px;
   color: #14183e;
 `;
 
@@ -53,7 +52,7 @@ export const StyledProductContentText = styled.p`
   margin: 3px 214px 48px;
   font-family: "Nunito-Regular";
   font-size: 16px;
-  line-height: 2.19;
+  line-height: 36px;
   text-align: center;
   color: #37415c;
 
@@ -61,77 +60,10 @@ export const StyledProductContentText = styled.p`
     margin: 24px 2px 23px 1px;
     font-family: "Nunito-Regular";
     font-size: 12px;
-    line-height: 1.67;
+    line-height: 20px;
     text-align: center;
     color: #37415c;
   }
-`;
-
-export const StyledProductButtonWrapper = styled.div`
-  margin: auto;
-  text-align: center;
-  width: 400px;
-  height: 50px;
-  border: 1px solid black;
-  border-radius: 50px;
-  background-color: #ffffff;
-
-  @media screen and (max-width: 991px) {
-    margin: auto;
-    text-align: center;
-    width: 208px;
-    height: 15px;
-  }
-`;
-
-export const StyledProductBtn = styled.div`
-  cursor: pointer;
-`;
-
-export const StyledProductPrivateBtn = styled.button`
-  width: 200px;
-  height: 50px;
-  border-radius: 50px;
-  color: #ffffff;
-  background-color: #3f3f40;
-  border: none;
-
-  @media screen and (max-width: 991px) {
-    width: 104px;
-    height: 15px;
-    margin: 0 0 0 7px;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 0.75;
-    text-align: center;
-    color: #fff;
-  }
-`;
-
-export const StyledProductCorporateBtn = styled.button`
-  width: 200px;
-  height: 50px;
-  background-color: #ffffff;
-  border-radius: 50px;
-  border: none;
-
-  @media screen and (max-width: 991px) {
-    width: 104px;
-    height: 15px;
-    margin: 0 0 0 7px;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 0.75;
-    text-align: center;
-  }
-`;
-
-export const PrivateIcon = styled(FaUser)`
-  margin-right: 20px;
-`;
-
-export const CorporateIcon = styled(FaUser)`
-  margin-right: 20px;
 `;
 
 export const StyledProductServicesWrapper = styled.div``;
@@ -151,7 +83,7 @@ export const StyledProductList = styled.li`
   width: 295px;
   height: 400px;
   margin: 89px 0 38px 30px;
-  padding: 25.6px 28px 42px 35.2px;
+  padding: 25px 28px 42px 35px;
   border-radius: 20px;
   border: solid 1px #e9e5e5;
   background-color: #fff;
@@ -189,8 +121,8 @@ export const StyledProductMoreInfoImgWrapper = styled.div`
 `;
 
 export const StyledProductMoreInfoImg = styled.img`
-  width: 38.3px;
-  height: 38.3px;
+  width: 38px;
+  height: 38px;
   text-align: center;
   object-fit: contain;
 
@@ -204,7 +136,7 @@ export const StyledServiceImageWrapper = styled.div`
 `;
 
 export const StyledServiceImage = styled.img`
-  width: 137.4px;
+  width: 139px;
   height: 139px;
   object-fit: contain;
 `;
@@ -232,4 +164,63 @@ export const StyledServiceContactBtn = styled.button`
   border: none;
   cursor: pointer;
   font-size: 16px;
+`;
+
+export const StyledProductCustom = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const StyledPrivateBox = styled.div`
+  width: 100%;
+  max-width: 244px;
+  height: 41px;
+  border-radius: 36px;
+  background-color: #474748;
+`;
+
+export const StyledPrivateWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0px;
+  color: #fff;
+  margin: 0;
+  text-shadow: 4px 4px 20px #fff;
+  @media (max-width: 991px) {
+    font-size: 9px;
+  }
+`;
+
+export const StyledProductCustomWrapper = styled.div`
+  display: flex;
+  width: 100%;
+  max-width: 493px;
+  height: 41px;
+  border-radius: 36px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.03);
+  border: solid 1px #eee0e4;
+  background-color: #fff;
+  @media (max-width: 991px) {
+    max-width: 331px;
+    font-size: 12px;
+  }
+`;
+
+export const StyledCustomIcon = styled.img`
+  width: 100%;
+  max-width: 13px;
+`;
+
+export const StyledCorporateWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 9px 23px;
+  color: #000;
+  margin: 0;
+  text-shadow: 4px 4px 20px #fff;
 `;

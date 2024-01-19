@@ -52,7 +52,8 @@ export const StyledFooterDescription = styled.div`
   padding: 12px 0 0 0;
   text-align: center;
   color: #ffffff;
-  line-height: 2;
+  line-height: 32px;
+  font-family: 'Quicksand-Bold';
 `;
 
 export const StyledFooterHorizontalLine = styled.hr`
@@ -65,11 +66,12 @@ export const StyledFooterHorizontalLine = styled.hr`
 `;
 
 export const StyledFooterDetails = styled.footer`
+  display: flex;
+  justify-content: space-between;
   color: #ffffff;
   margin: 0 19px 20px;
   padding: 33.3px 120px 0 118px;
-  display: flex;
-  justify-content: space-between;
+  font-family: 'Nunito-Regular';
 
   @media screen and (max-width: 991px) {
     margin: 0;
@@ -85,6 +87,6 @@ export const StyledRightContainer = styled.div`
 export const StyledVerticalLine = styled.div`
   height: 12px;
   width: 0;
-  border: 1px solid #000;
+  border: 1px solid #000000;
   margin: 0 12px 0;
 `;

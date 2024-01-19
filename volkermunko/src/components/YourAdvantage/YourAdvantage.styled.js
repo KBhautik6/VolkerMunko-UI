@@ -78,7 +78,7 @@ export const StyledRightYourAdvantage = styled.div`
 export const StyledHeading = styled.div`
   font-family: "Quicksand-Bold";
   font-size: 51px;
-  line-height: 1.41;
+  line-height: 72px;
   color: #14183e;
   max-width: 565px;
   width: 100%;
@@ -99,8 +99,8 @@ export const StyledHeading = styled.div`
 
   @media screen and (max-width: 991px) {
     text-align: center;
-    font-size: 21px;
-    line-height: 1.29;
+    font-size: 22px;
+    line-height: 27px;
     margin: 0 0 20px 0;
 
     &::before {
@@ -120,7 +120,7 @@ export const StyledDescription = styled.p`
   @media screen and (max-width: 991px) {
     text-align: center;
     font-size: 12px;
-    line-height: 1.75;
+    line-height: 22px;
   }
 `;
 
@@ -174,7 +174,7 @@ export const StyledContentNumber = styled.div`
   padding: 10px;
   font-family: "Nunito-Regular";
   font-size: 16px;
-  line-height: 1.56;
+  line-height: 12px;
   color: #ffffff;
 
   @media screen and (max-width: 991px) {
@@ -189,11 +189,11 @@ export const StyledContent = styled.p`
   font-family: " Nunito-SemiBold";
   font-size: 20px;
   font-weight: 600;
-  line-height: 1.72;
+  line-height: 34px;
   color: #37415c;
 
   @media screen and (max-width: 991px) {
     font-size: 13px;
-    line-height: 1.75;
+    line-height: 22px;
   }
 `;

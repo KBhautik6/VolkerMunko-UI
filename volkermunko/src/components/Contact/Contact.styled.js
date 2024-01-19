@@ -68,7 +68,7 @@ export const StyledContact = styled.h3`
   font-family: "Nunito-Regular";
   font-weight: 600;
   margin: 0 0 0 23px;
-  line-height: 1.5;
+  line-height: 28px;
   text-align: left;
   color: #14183e;
 
@@ -82,7 +82,7 @@ export const StyledContact = styled.h3`
   }
 
   @media screen and (max-width: 991px) {
-    font-size: 16px;
+    font-size: 17px;
     padding: 0 0 0 30px;
     margin: 50px 0 20px;
 
@@ -101,7 +101,7 @@ export const StyledContactHeading = styled.h2`
   font-family: "Nunito-Regular";
   font-size: 51px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 76px;
   text-align: left;
   color: #14183e;
 
@@ -116,40 +116,83 @@ export const StyledContactHeading = styled.h2`
     z-index: -1;
     background: linear-gradient(to bottom, #f8e9ed, #fbfbfb);
   }
-`;
+
+  @media screen and (max-width: 991px) {
+      font-size: 24px;
+      line-height:31px;
+      margin: 0 0 30px 0;
+
+      &::before{
+        height: 30px;
+      }
+    }
+`
 
 export const StyledContactAddressWrapper = styled.div`
   display: flex;
   margin: 35px 0;
+  align-items: flex-start;
+
+  @media screen and (max-width:991px){
+    margin: 0 0 10px -40px; 
+  }
 `;
 
-export const StyledMapIcon = styled.img``;
+export const StyledMapIcon = styled.img`
+max-width:40px;
+`;
 
 export const StyledMapAddress = styled.p`
   margin: 10px 0 0px 35px;
   font-family: "Nunito-Regular";
+
+  @media screen and (max-width:991px){
+    font-size: 14px;
+  }
 `;
 
 export const StyledPhoneNumberWrapper = styled.div`
   display: flex;
   margin: 35px 0;
+  align-items: flex-start;
+
+  @media screen and (max-width:991px){
+    margin: 0 0 10px -40px; 
+  }
 `;
 
-export const StyledPhoneIcon = styled.img``;
+export const StyledPhoneIcon = styled.img`
+max-width:40px;
+`;
 
 export const StyledPhoneNumber = styled.p`
   margin: 10px 0 0px 35px;
   font-family: "Nunito-Regular";
+
+  @media screen and (max-width:991px){
+    font-size: 14px;
+  }
 `;
 
 export const StyledMailWrapper = styled.div`
   display: flex;
   margin: 35px 0;
+  align-items: flex-start;
+
+  @media screen and (max-width:991px){
+    margin: 0 0 10px -40px; 
+  }
 `;
 
-export const StyledMailIcon = styled.img``;
+export const StyledMailIcon = styled.img`
+max-width:40px;
+`;
 
 export const StyledMail = styled.div`
   margin: 10px 0 0px 35px;
   font-family: "Nunito-Regular";
+
+  @media screen and (max-width:991px){
+    font-size: 14px;
+  }
 `;

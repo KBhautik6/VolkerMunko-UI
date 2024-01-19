@@ -32,9 +32,9 @@ export const StyledNavbarWhyAssetMangement = styled.li`
   @media screen and (min-width: 991px) {
     display: inline;
     float: left;
-    width: 217px;
+    width: 250px;
     height: 27px;
-    font-family: "Nunito";
+    font-family: "Quicksand-Bold";
     font-size: 20px;
     font-weight: 600;
     line-height: 0.65;
@@ -49,9 +49,9 @@ export const StyledNavbarAboutUs = styled.li`
   @media screen and (min-width: 991px) {
     display: inline;
     float: left;
-    width: 84px;
+    width: 88px;
     height: 27px;
-    font-family: "Nunito";
+    font-family: "Quicksand-Bold";
     font-size: 20px;
     font-weight: 600;
     line-height: 0.65;
@@ -73,7 +73,7 @@ export const StyledNavbarContactButton = styled.button`
     border-radius: 10px;
     border: 1px solid transparent;
     background-color: #fff;
-    font-family: "Nunito";
+    font-family: "Quicksand-Bold";
     font-size: 16px;
   }
 `;
@@ -113,7 +113,6 @@ export const StyledInner = styled.div`
 
   @media screen and (max-width: 991px) {
     flex-direction: column;
-    padding: 0 20px;
   }
 `;
 
@@ -124,7 +123,7 @@ export const StyledLeftContent = styled.div``;
 export const StyledLeftContentHeading = styled.h3`
   font-family: "Quicksand-Bold";
   font-size: 54px;
-  line-height: 1.41;
+  line-height:76px;
   color: #14183e;
   max-width: 565px;
   width: 100%;
@@ -133,7 +132,7 @@ export const StyledLeftContentHeading = styled.h3`
 
   @media screen and (max-width: 991px) {
     font-size: 24px;
-    line-height: 1.29;
+    line-height: 31px;
     margin: 0 0 40px 0;
   }
 
@@ -150,14 +149,14 @@ export const StyledLeftContentHeading = styled.h3`
 export const StyledLeftContentText = styled.div`
   font-family: "Nunito-Regular";
   font-size: 16px;
-  line-height: 1.72;
+  line-height: 27px;
   color: #3b3b3c;
   max-width: 565px;
   width: 100%;
 
   @media screen and (max-width: 991px) {
-    font-size: 12px;
-    line-height: 1.75;
+    font-size: 10px;
+    line-height: 21px;
   }
 `;
 export const StyledBannerImageWrapper = styled.div`
@@ -173,6 +172,11 @@ export const StyledBannerImage = styled.img`
   width: 100%;
   max-width: 600px;
   margin: 30px 0 0;
+  
+  @media screen and (max-width:991px){
+    max-width: 270px;
+    width:100%;
+  }
 `;
 
 export const StyledLeftButtonWrapper = styled.div`
@@ -188,7 +192,7 @@ export const StyledLeftButtonWrapper = styled.div`
   padding: 10px 20px;
   font-family: "Nunito-Bold";
   font-size: 1;
-  line-height: 1.25;
+  line-height: 27px;
   color: #ffffff;
 
   @media screen and (max-width: 991px) {

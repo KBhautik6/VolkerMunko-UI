@@ -35,7 +35,7 @@ export const StyledLeftInner = styled.div``;
 export const StyledHeadingWrapper = styled.div`
   font-family: "Nunito-Regular";
   font-size: 51px;
-  line-height: 1.41;
+  line-height: 72px;
   color: #14183e;
   max-width: 565px;
   width: 100%;
@@ -56,7 +56,7 @@ export const StyledHeadingWrapper = styled.div`
 
   @media screen and (max-width: 991px) {
     font-size: 24px;
-    line-height: 1.29;
+    line-height: 64px;
     margin: 0 0 40px 0;
   }
 `;
@@ -66,14 +66,14 @@ export const StyledHeading = styled.div``;
 export const StyledCompleteTextWrapper = styled.div`
   font-family: "Nunito-Regular";
   font-size: 16px;
-  line-height: 1.72;
+  line-height: 28px;
   color: #3b3b3c;
   max-width: 565px;
   width: 100%;
 
   @media screen and (max-width: 991px) {
     font-size: 12px;
-    line-height: 1.75;
+    line-height: 28px;
   }
 `;
 
@@ -94,7 +94,7 @@ export const StyledButtonWrapper = styled.button`
   padding: 10px 20px;
   font-family: "Nunito-Bold";
   font-size: 18px;
-  line-height: 1.25;
+  line-height: 18px;
   color: #14183e;
 `;
 
@@ -118,7 +118,7 @@ export const StyledRightContent = styled.div`
 export const StyledExcellentHeadingWrapper = styled.div`
   font-family: "Nunito-Bold";
   font-size: 29px;
-  line-height: 1.52;
+  line-height: 44px;
   color: #14183e;
   position: relative;
   padding: 0 0 0 70px;
@@ -184,7 +184,7 @@ export const StyledLine = styled.div`
 export const StyledDescriptionWrapper = styled.div`
   font-family: "Nunito-Medium";
   font-size: 16px;
-  line-height: 1.75;
+  line-height: 28px;
   color: #707684;
   text-align: center;
   margin: 40px 0 0;

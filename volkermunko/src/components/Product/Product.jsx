@@ -8,12 +8,12 @@ import {
   StyledProductHeadingWrapper,
   StyledProductHeading,
   StyledProductContentText,
-  StyledProductButtonWrapper,
-  StyledProductBtn,
-  StyledProductPrivateBtn,
-  StyledProductCorporateBtn,
-  PrivateIcon,
-  CorporateIcon,
+  StyledProductCustom,
+  StyledProductCustomWrapper,
+  StyledPrivateBox,
+  StyledPrivateWrapper,
+  StyledCustomIcon,
+  StyledCorporateWrapper,
   StyledProductServicesWrapper,
   StyledProductServices,
   StyledProductServicesList,
@@ -37,20 +37,22 @@ export const Product = () => {
                 The point aseof using Lorem Ipsum is that it has a more-or-less
                 normal distribution of letters
               </StyledProductContentText>
-              <StyledProductButtonWrapper>
-                <StyledProductPrivateBtn>
-                  <StyledProductBtn>
-                    <PrivateIcon />
-                    Private Customers
-                  </StyledProductBtn>
-                </StyledProductPrivateBtn>
-                <StyledProductCorporateBtn>
-                  <StyledProductBtn>
-                    <CorporateIcon />
+
+              <StyledProductCustom>
+                <StyledProductCustomWrapper>
+                  <StyledPrivateBox>
+                    <StyledPrivateWrapper>
+                      <StyledCustomIcon src="https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/c70281c9-0291-40f2-b9de-25076eb94b2c.svg" />
+                      Private Customer
+                    </StyledPrivateWrapper>
+                  </StyledPrivateBox>
+                  <StyledCorporateWrapper>
+                    <StyledCustomIcon src="https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/8552f735-7b7e-46df-8298-8509c7c5eb19.svg" />
                     Corporate Customers
-                  </StyledProductBtn>
-                </StyledProductCorporateBtn>
-              </StyledProductButtonWrapper>
+                  </StyledCorporateWrapper>
+                </StyledProductCustomWrapper>
+              </StyledProductCustom>
+
               <StyledProductServicesWrapper>
                 <StyledProductServices>
                   <StyledProductServicesList>
