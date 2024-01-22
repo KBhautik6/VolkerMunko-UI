@@ -15,11 +15,6 @@ export const StyledContainer = styled.div`
   max-width: 1088px;
   margin: 0 auto;
   background-color: #ffffff;
-  /* padding: 0 0 0 75px; */
-
-  @media screen and (max-width: 1199px) {
-    padding: 0 20px;
-  }
 `;
 
 export const StyledWrapper = styled.div`
@@ -45,7 +40,7 @@ export const StyledWrapper = styled.div`
 export const StyledLeftYourAdvantage = styled.div``;
 
 export const StyledRightImage = styled.img`
-  max-width: 520px;
+  max-width: 506px;
   width: 100%;
   position: relative;
   top: -7px;
@@ -82,8 +77,9 @@ export const StyledHeading = styled.div`
   color: #14183e;
   max-width: 565px;
   width: 100%;
-  margin: 0 0 20px;
+  margin: 50px 0 20px;
   position: relative;
+  z-index: 1;
 
   &::before {
     content: "";
@@ -155,7 +151,6 @@ export const StyledContentList = styled.li`
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 0 0 25px 0;
 
   @media screen and (max-width: 991px) {
     margin: 0 0 15px 0;
@@ -171,7 +166,6 @@ export const StyledContentNumber = styled.div`
   height: 34px;
   border-radius: 50px;
   margin: 0 25px 0 0;
-  padding: 10px;
   font-family: "Nunito-Regular";
   font-size: 16px;
   line-height: 12px;
@@ -182,11 +176,12 @@ export const StyledContentNumber = styled.div`
     width: 16px;
     height: 16px;
     margin: 0 15px 0 0;
+    padding: 10px;
   }
 `;
 
 export const StyledContent = styled.p`
-  font-family: " Nunito-SemiBold";
+  font-family: "Nunito-Regular";
   font-size: 20px;
   font-weight: 600;
   line-height: 34px;

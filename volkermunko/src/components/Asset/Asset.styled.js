@@ -1,5 +1,4 @@
-import styled from "styled-components";
-import { GlobalStyles } from "../Global.styled";
+import styled from "styled-components"
 
 export const StyledNavbarWrapper = styled.div`
   display: flex;
@@ -17,8 +16,24 @@ export const StyledNavbarLogo = styled.img`
   padding: 34px 0 0 78px;
 
   @media screen and (max-width: 991px) {
-    padding: 0px;
+    padding: 0;
+    height: 54px;
+    width: 90px;
   }
+`;
+
+export const StyledMobileViewWrapper = styled.div`
+  margin: 0 30px 0 0;
+  display: none;
+
+  @media screen and (max-width: 991px) {
+    display: block;
+  }
+`;
+
+export const StyledMobileView = styled.img`
+  width: 30px;
+  height: 30px;
 `;
 
 export const StyledNavbarTextWrapper = styled.div`
@@ -37,7 +52,7 @@ export const StyledNavbarWhyAssetMangement = styled.li`
     font-family: "Quicksand-Bold";
     font-size: 20px;
     font-weight: 600;
-    line-height: 0.65;
+    line-height: 27px;
     color: #37415c;
     margin: 0 20px;
   }
@@ -54,7 +69,7 @@ export const StyledNavbarAboutUs = styled.li`
     font-family: "Quicksand-Bold";
     font-size: 20px;
     font-weight: 600;
-    line-height: 0.65;
+    line-height: 27px;
     color: #37415c;
     margin: 0 20px;
   }
@@ -75,6 +90,11 @@ export const StyledNavbarContactButton = styled.button`
     background-color: #fff;
     font-family: "Quicksand-Bold";
     font-size: 16px;
+
+    &:hover {
+      background-image: radial-gradient(#767678, #3b3b3c);
+      color: #ffffff;
+    }
   }
 `;
 
@@ -123,26 +143,30 @@ export const StyledLeftContent = styled.div``;
 export const StyledLeftContentHeading = styled.h3`
   font-family: "Quicksand-Bold";
   font-size: 54px;
-  line-height:76px;
+  line-height: 76px;
   color: #14183e;
   max-width: 565px;
   width: 100%;
   margin: 60px 0 40px;
   position: relative;
+  z-index:1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0;
+    max-width: 427px;
+    width: 100%;
+    height: 68px;
+    z-index: -1;
+    background: linear-gradient(to bottom, #f8e9ed, #fbfbfb);
+  }
 
   @media screen and (max-width: 991px) {
     font-size: 24px;
     line-height: 31px;
     margin: 0 0 40px 0;
-  }
-
-  &::before {
-    content: "";
-    position: absolute;
-    background: linear-gradient(180deg, #f8e9ed, #fbfbfb);
-    left: 0;
-    display: block;
-    width: 427px;
   }
 `;
 
@@ -172,10 +196,10 @@ export const StyledBannerImage = styled.img`
   width: 100%;
   max-width: 600px;
   margin: 30px 0 0;
-  
-  @media screen and (max-width:991px){
+
+  @media screen and (max-width: 991px) {
     max-width: 270px;
-    width:100%;
+    width: 100%;
   }
 `;
 
@@ -183,7 +207,7 @@ export const StyledLeftButtonWrapper = styled.div`
   position: relative;
   width: 100%;
   max-width: 210px;
-  height: 60px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -209,7 +233,8 @@ export const StyledLeftBtn = styled.button`
   font-size: 18px;
   font-weight: 500;
   color: #ffffff;
-  background-color: #3b3b3c;
+  background-image: radial-gradient(#767678, #3b3b3c);
   border-radius: 10px;
   padding: 19px 56px;
+  cursor: pointer;
 `;

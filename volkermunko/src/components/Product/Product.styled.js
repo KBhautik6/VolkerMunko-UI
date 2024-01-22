@@ -6,6 +6,19 @@ export const StyledSection = styled.section`
   margin: 0;
   padding: 0;
   position: relative;
+
+  &::before {
+    content: "";
+    background: url(https://owl-finanzservice.de/assets/images/product-before.svg)
+      no-repeat;
+    height: 100px;
+    width: 100%;
+    background-size: 100%;
+    background-position: center top;
+    position: absolute;
+    top: -50px;
+    z-index: -1;
+  }
 `;
 
 export const StyledWrapper = styled.div`
@@ -13,6 +26,7 @@ export const StyledWrapper = styled.div`
   width: 100%;
   height: 747px;
   background-image: linear-gradient(to bottom, #f8f8f8, #fff);
+
   &::before {
     content: "";
     position: absolute;
@@ -42,7 +56,7 @@ export const StyledProductHeadingWrapper = styled.div``;
 
 export const StyledProductHeading = styled.h3`
   text-align: center;
-  font-family: "Nunito-Bold";
+  font-family: "Quicksand-bold";
   font-size: 51px;
   line-height: 78px;
   color: #14183e;
@@ -116,6 +130,7 @@ export const StyledProductMoreInfoImgWrapper = styled.div`
   text-align: right;
 
   ${StyledProductList}:hover & {
+    text-align: right;
     visibility: visible;
   }
 `;
@@ -185,11 +200,12 @@ export const StyledPrivateWrapper = styled.div`
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: 10px 0px;
+  padding: 10px 0;
   color: #fff;
   margin: 0;
   text-shadow: 4px 4px 20px #fff;
-  @media (max-width: 991px) {
+
+  @media screen and (max-width: 991px) {
     font-size: 9px;
   }
 `;
@@ -203,7 +219,8 @@ export const StyledProductCustomWrapper = styled.div`
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.03);
   border: solid 1px #eee0e4;
   background-color: #fff;
-  @media (max-width: 991px) {
+
+  @media screen and (max-width: 991px) {
     max-width: 331px;
     font-size: 12px;
   }

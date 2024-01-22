@@ -13,7 +13,7 @@ import {
   StyledWealthRightList,
 } from "./WealthManagement.styled";
 import { WealthProps } from "./WealthProps";
-import { Wdata, WdataSecond } from "./WealthData";
+import { Wdata, WdataSecond } from "../Data";
 
 export const WealthManagement = () => {
   return (

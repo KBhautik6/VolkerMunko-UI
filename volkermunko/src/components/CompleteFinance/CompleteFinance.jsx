@@ -23,6 +23,8 @@ import {
   StyledDescriptionWrapper,
   StyledDescription,
 } from "./CompleteFinance.styled";
+import Topservice from "../../assets/rectangle-1352.png"
+import exzellent from "../../assets/rectangle-1353.png"
 
 export const CompleteFinance = () => {
   return (
@@ -33,10 +35,7 @@ export const CompleteFinance = () => {
             <StyledLeftCompleteFinance>
               <StyledLeftInner>
                 <StyledHeadingWrapper>
-                  <StyledHeading>
-                    Competence for
-                    <br /> your finances
-                  </StyledHeading>
+                  <StyledHeading>Competence for your finances</StyledHeading>
                 </StyledHeadingWrapper>
                 <StyledCompleteTextWrapper>
                   <StyledCompleteText>
@@ -63,14 +62,14 @@ export const CompleteFinance = () => {
                     <StyledImageBoxWrapper>
                       <StyledImageWrapper>
                         <StyledBookImage
-                          src="https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/630c8b70-5069-4d5d-a30d-7bc04bdc3f6d.png"
+                          src={Topservice}
                           alt="Top-service-Deutschland"
                         />
                       </StyledImageWrapper>
                       <StyledLine>&nbsp;</StyledLine>
                       <StyledImageWrapper>
                         <StyledBookImage
-                          src="https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/76b09a45-c7c0-4adb-a46d-7750ed65d1ab.png"
+                          src={exzellent}
                           alt="exzellent"
                         />
                       </StyledImageWrapper>

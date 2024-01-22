@@ -15,6 +15,7 @@ import {
   StyledContentNumber,
   StyledContent,
 } from "./YourAdvantage.styled";
+import AdvantageImage from "../../assets/group-68.png";
 
 export const YourAdvantage = () => {
   return (
@@ -24,7 +25,7 @@ export const YourAdvantage = () => {
           <StyledWrapper>
             <StyledCard>
               <StyledLeftYourAdvantage>
-                <StyledRightImage src="http://217.160.46.77/assets/images/advantages.png "></StyledRightImage>
+                <StyledRightImage src={AdvantageImage} alt="Advanatages"></StyledRightImage>
               </StyledLeftYourAdvantage>
               <StyledRightYourAdvantage>
                 <StyledRightWrapper>
@@ -41,12 +42,12 @@ export const YourAdvantage = () => {
                     <StyledContentList>
                       <StyledContentNumber>2</StyledContentNumber>
                       <StyledContent>
-                        Your finances: easier than ever With the
+                        Your finances: easier than ever
                       </StyledContent>
                     </StyledContentList>
                     <StyledContentList>
                       <StyledContentNumber>3</StyledContentNumber>
-                      <StyledContent>best partners at your side</StyledContent>
+                      <StyledContent>Best partners at your side</StyledContent>
                     </StyledContentList>
                   </StyledRightContent>
                 </StyledRightWrapper>

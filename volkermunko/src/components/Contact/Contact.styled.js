@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { GlobalStyles } from "../Global.styled";
 
 export const StyledSection = styled.section``;
 
@@ -12,8 +11,8 @@ export const StyledWrapper = styled.div`
 export const StyledInnerWrapper = styled.div`
   display: flex;
   justify-content: center;
-  justify-content: center;
   align-items: center;
+  margin:0 0 60px 0;
 
   @media screen and (max-width: 991px) {
     flex-direction: column;
@@ -32,7 +31,7 @@ export const Iframe = styled.iframe`
 
 export const StyledContactLeft = styled.div`
   width: 49%;
-  margin: 175px 0 0 145px;
+  margin: 175px 0 0 45px;
 
   @media screen and (max-width: 991px) {
     margin: 0 auto;
@@ -42,13 +41,23 @@ export const StyledContactLeft = styled.div`
 `;
 
 export const StyledMapWrapper = styled.div`
-  width: 512px;
-  height: 587px;
-  margin: 120px 0 0;
+  width: 100%;
+  max-width: 50%;
 
-  @media screen and (max-width: 991px) {
-    width: 100px;
-    height: 300px;
+  @media screen and  (max-width: 991px) {
+    max-width: 100%;
+  }
+`;
+
+export const StyledMapIframe = styled.iframe`
+  width: 450px;
+  height: 400px;
+  border: 0;
+  border-radius: 22px;
+
+  @media screen and (max-width:991px) {
+     width: 300px;
+  height: 300px;
   }
 `;
 
@@ -98,7 +107,7 @@ export const StyledContactHeadingWrapper = styled.div`
 
 export const StyledContactHeading = styled.h2`
   margin: 0 0 9px;
-  font-family: "Nunito-Regular";
+  font-family: "Nunito-Bold";
   font-size: 51px;
   font-weight: 700;
   line-height: 76px;
@@ -118,58 +127,65 @@ export const StyledContactHeading = styled.h2`
   }
 
   @media screen and (max-width: 991px) {
-      font-size: 24px;
-      line-height:31px;
-      margin: 0 0 30px 0;
+    font-size: 24px;
+    line-height: 31px;
+    margin: 0 0 30px 0;
 
-      &::before{
-        height: 30px;
-      }
+    &::before {
+      height: 30px;
     }
-`
+  }
+`;
 
 export const StyledContactAddressWrapper = styled.div`
   display: flex;
   margin: 35px 0;
   align-items: flex-start;
 
-  @media screen and (max-width:991px){
-    margin: 0 0 10px -40px; 
+  @media screen and (max-width: 991px) {
+    margin: 0 0 10px -40px;
   }
 `;
 
 export const StyledMapIcon = styled.img`
-max-width:40px;
+  max-width: 60px;
 `;
 
 export const StyledMapAddress = styled.p`
   margin: 10px 0 0px 35px;
-  font-family: "Nunito-Regular";
+  font-family: "Nunito-Bold";
+  font-size:20px;
 
-  @media screen and (max-width:991px){
+  @media screen and (max-width: 991px) {
     font-size: 14px;
   }
 `;
+
+export const StyledLink=styled.a`
+text-decoration:none;
+color: #14183e;
+`
 
 export const StyledPhoneNumberWrapper = styled.div`
   display: flex;
   margin: 35px 0;
   align-items: flex-start;
 
-  @media screen and (max-width:991px){
-    margin: 0 0 10px -40px; 
+  @media screen and (max-width: 991px) {
+    margin: 0 0 10px -40px;
   }
 `;
 
 export const StyledPhoneIcon = styled.img`
-max-width:40px;
+  max-width: 60px;
 `;
 
 export const StyledPhoneNumber = styled.p`
   margin: 10px 0 0px 35px;
-  font-family: "Nunito-Regular";
+  font-family: "Nunito-Bold";
+  font-size:20px;
 
-  @media screen and (max-width:991px){
+  @media screen and (max-width: 991px) {
     font-size: 14px;
   }
 `;
@@ -179,20 +195,21 @@ export const StyledMailWrapper = styled.div`
   margin: 35px 0;
   align-items: flex-start;
 
-  @media screen and (max-width:991px){
-    margin: 0 0 10px -40px; 
+  @media screen and (max-width: 991px) {
+    margin: 0 0 10px -40px;
   }
 `;
 
 export const StyledMailIcon = styled.img`
-max-width:40px;
+  max-width: 60px;
 `;
 
 export const StyledMail = styled.div`
   margin: 10px 0 0px 35px;
-  font-family: "Nunito-Regular";
+  font-size:20px;
+  font-family: "Nunito-Bold";
 
-  @media screen and (max-width:991px){
+  @media screen and (max-width: 991px) {
     font-size: 14px;
   }
 `;

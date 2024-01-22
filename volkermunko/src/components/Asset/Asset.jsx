@@ -13,6 +13,7 @@ import {
   StyledBannerImage,
 } from "./Asset.styled";
 import { Navbar } from "./Navbar/Navbar";
+import BannerImage from "../../assets/group-10811.png"
 
 export const AssetManagement = () => {
   return (
@@ -34,7 +35,7 @@ export const AssetManagement = () => {
                 </StyledLeftContentText>
                 <StyledBannerImageWrapper>
                   <StyledBannerImage
-                    src="https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/315bba66-2840-4652-bca2-8c3ccf59bcb2.png"
+                    src={BannerImage}
                     alt="navbar-img"
                   />
                 </StyledBannerImageWrapper>

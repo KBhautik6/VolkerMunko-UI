@@ -9,13 +9,14 @@ import {
   StyledMobileViewWrapper,
   StyledMobileView,
 } from "../Asset.styled";
+import NavbarLogo from "../../../assets/vm-logo.png"
 
 export const Navbar = () => {
   return (
     <>
       <StyledNavbarWrapper>
         <StyledNavbarLogo
-          src="https://i.ibb.co/5jMVxY6/logo-navbar.jpg"
+          src={NavbarLogo}
           alt="Navbar Logo"
         />
         <StyledNavbarTextWrapper>
@@ -25,9 +26,12 @@ export const Navbar = () => {
           <StyledNavbarAboutUs>About Us</StyledNavbarAboutUs>
           <StyledNavbarContactButton>Contact</StyledNavbarContactButton>
         </StyledNavbarTextWrapper>
-        {/* <StyledMobileViewWrapper>
-                <StyledMobileView src="https://i.ibb.co/ZKGPHPg/3-bars.jpg" alt="navbar"/>
-              </StyledMobileViewWrapper>*/}
+        <StyledMobileViewWrapper>
+          <StyledMobileView
+            src="https://i.ibb.co/ZKGPHPg/3-bars.jpg"
+            alt="navbar"
+          />
+        </StyledMobileViewWrapper>
       </StyledNavbarWrapper>
     </>
   );

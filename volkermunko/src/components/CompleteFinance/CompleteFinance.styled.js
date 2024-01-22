@@ -33,7 +33,7 @@ export const StyledLeftCompleteFinance = styled.div`
 export const StyledLeftInner = styled.div``;
 
 export const StyledHeadingWrapper = styled.div`
-  font-family: "Nunito-Regular";
+  font-family: "Quicksand-Bold";
   font-size: 51px;
   line-height: 72px;
   color: #14183e;
@@ -61,11 +61,16 @@ export const StyledHeadingWrapper = styled.div`
   }
 `;
 
-export const StyledHeading = styled.div``;
+export const StyledHeading = styled.div`
+  @media screen and (max-width: 991px) {
+    line-height: 38px;
+  }
+`;
 
 export const StyledCompleteTextWrapper = styled.div`
   font-family: "Nunito-Regular";
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 28px;
   color: #3b3b3c;
   max-width: 565px;
@@ -96,6 +101,11 @@ export const StyledButtonWrapper = styled.button`
   font-size: 18px;
   line-height: 18px;
   color: #14183e;
+
+  &:hover {
+    background: #000;
+    color: white;
+  }
 `;
 
 export const StyledButton = styled.div`
@@ -116,7 +126,7 @@ export const StyledRightContent = styled.div`
 `;
 
 export const StyledExcellentHeadingWrapper = styled.div`
-  font-family: "Nunito-Bold";
+  font-family: "Quicksand-Bold";
   font-size: 29px;
   line-height: 44px;
   color: #14183e;
@@ -182,7 +192,7 @@ export const StyledLine = styled.div`
 `;
 
 export const StyledDescriptionWrapper = styled.div`
-  font-family: "Nunito-Medium";
+  font-family: "Nunito-Regular";
   font-size: 16px;
   line-height: 28px;
   color: #707684;

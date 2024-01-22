@@ -5,12 +5,14 @@ import {
   StyledInnerWrapper,
   StyledContactLeft,
   StyledMapWrapper,
+  StyledMapIframe,
   StyledContactRight,
   StyledContactRightWrapper,
   StyledContact,
   StyledContactHeadingWrapper,
   StyledContactHeading,
   StyledContactAddressWrapper,
+  StyledLink,
   StyledMapIcon,
   StyledMapAddress,
   StyledPhoneNumberWrapper,
@@ -21,25 +23,9 @@ import {
   StyledMail,
 } from "./Contact.styled";
 import { Footer } from "./footer/Footer";
-
-export const iframe = `<iframe
-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.811733323151!2d73.12992577388097!3d22.285120379697574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc7dd361f0625%3A0x59326ccefe144813!2sAdrixus%20Tech%20Studio%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1705559938492!5m2!1sen!2sin"
-width="200px"
-height="200px"
-style={{ border: '0' }}
-allowfullscreen=""
-loading="lazy"
-referrerpolicy="no-referrer-when-downgrade"
-></iframe>
-`;
-
-export function Iframe(props) {
-  return (
-    <div
-      dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : "" }}
-    />
-  );
-}
+import map from "../../assets/group-10824.png"
+import mail from "../../assets/group-10824-3.png"
+import phone from "../../assets/group-10824-2.png"
 
 export const Contact = () => {
   return (
@@ -49,7 +35,7 @@ export const Contact = () => {
           <StyledInnerWrapper>
             <StyledContactLeft>
               <StyledMapWrapper>
-                <Iframe iframe={iframe} />
+              <StyledMapIframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.811733323151!2d73.12992577388097!3d22.285120379697574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc7dd361f0625%3A0x59326ccefe144813!2sAdrixus%20Tech%20Studio%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1705559938492!5m2!1sen!2sin" />
               </StyledMapWrapper>
             </StyledContactLeft>
             <StyledContactRight>
@@ -61,8 +47,8 @@ export const Contact = () => {
                 <div>
                   <StyledContactAddressWrapper>
                     <StyledMapIcon
-                      src="https://i.postimg.cc/fRB9Dv9j/mapicon.png"
-                      alt="mapIcon"
+                      src={map}
+                      alt="map"
                     />
                     <StyledMapAddress>
                       Office for Allfinanz German investment advice On the heath
@@ -71,17 +57,22 @@ export const Contact = () => {
                   </StyledContactAddressWrapper>
                   <StyledPhoneNumberWrapper>
                     <StyledPhoneIcon
-                      src="https://i.postimg.cc/WzNVN0rg/phoneicon.png"
-                      alt="phoneIcon"
+                      src={phone}
+                      alt="phone"
                     />
-                    <StyledPhoneNumber>05733 881883</StyledPhoneNumber>
+                    <StyledLink href="tel:05733 881883">
+                    <StyledPhoneNumber >05733 881883
+                    </StyledPhoneNumber>
+                    </StyledLink>
                   </StyledPhoneNumberWrapper>
                   <StyledMailWrapper>
                     <StyledMailIcon
-                      src="https://i.postimg.cc/cH5hCSth/mailicon.png"
-                      alt="mailIcon"
+                      src={mail}
+                      alt="mail"
                     />
+                    <StyledLink href="mailto:Volker.Munko@allfinanz.ag">
                     <StyledMail>Volker.Munko@allfinanz.ag</StyledMail>
+                    </StyledLink>
                   </StyledMailWrapper>
                 </div>
               </StyledContactRightWrapper>

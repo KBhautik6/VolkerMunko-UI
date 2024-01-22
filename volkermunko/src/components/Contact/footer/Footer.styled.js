@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledSection = styled.section`
-  background-image: url(https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/b8ebc7b6-3e25-4f50-a136-6d9bbcc23102.svg);
+  background-image: url('https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/b8ebc7b6-3e25-4f50-a136-6d9bbcc23102.svg');
   background-repeat: no-repeat;
   background-size: cover;
 `;
@@ -38,8 +38,8 @@ export const StyledFooterWrapper = styled.div`
 export const StyledFooterIcon = styled.img`
   padding: 65px 0 0 0;
   width: 100%;
-  max-width: 300px;
-  height: 198px;
+  max-width: 188px;
+  height: 112px;
 
   @media screen and (max-width: 991px) {
     max-width: 86px;
@@ -53,7 +53,7 @@ export const StyledFooterDescription = styled.div`
   text-align: center;
   color: #ffffff;
   line-height: 32px;
-  font-family: 'Quicksand-Bold';
+  font-family: "Quicksand-Bold";
 `;
 
 export const StyledFooterHorizontalLine = styled.hr`
@@ -70,8 +70,8 @@ export const StyledFooterDetails = styled.footer`
   justify-content: space-between;
   color: #ffffff;
   margin: 0 19px 20px;
-  padding: 33.3px 120px 0 118px;
-  font-family: 'Nunito-Regular';
+  padding:33px 120px 33px 118px;
+  font-family: "Nunito-Regular";
 
   @media screen and (max-width: 991px) {
     margin: 0;

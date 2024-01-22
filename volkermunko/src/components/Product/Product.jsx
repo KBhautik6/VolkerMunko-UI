@@ -18,8 +18,10 @@ import {
   StyledProductServices,
   StyledProductServicesList,
 } from "./Product.styled";
-import { Data } from "./Data";
+import { ProductData } from "../Data";
 import { Service } from "./Service";
+import man from "../../assets/man.png"
+import corporateman from "../../assets/group-53.png"
 
 export const Product = () => {
   return (
@@ -42,12 +44,18 @@ export const Product = () => {
                 <StyledProductCustomWrapper>
                   <StyledPrivateBox>
                     <StyledPrivateWrapper>
-                      <StyledCustomIcon src="https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/c70281c9-0291-40f2-b9de-25076eb94b2c.svg" />
+                      <StyledCustomIcon
+                        src={man}
+                        alt="private"
+                      />
                       Private Customer
                     </StyledPrivateWrapper>
                   </StyledPrivateBox>
                   <StyledCorporateWrapper>
-                    <StyledCustomIcon src="https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/8552f735-7b7e-46df-8298-8509c7c5eb19.svg" />
+                    <StyledCustomIcon
+                      src={corporateman}
+                      alt="corporate"
+                    />
                     Corporate Customers
                   </StyledCorporateWrapper>
                 </StyledProductCustomWrapper>
@@ -56,7 +64,7 @@ export const Product = () => {
               <StyledProductServicesWrapper>
                 <StyledProductServices>
                   <StyledProductServicesList>
-                    {Data.map((item) => (
+                    {ProductData.map((item) => (
                       <Service
                         key={item.id}
                         moreinfosrc={item.moreinfosrc}

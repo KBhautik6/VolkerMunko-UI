@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { GlobalStyles } from "../Global.styled";
 
 export const StyledSection = styled.section`
   position: relative;
@@ -39,7 +38,6 @@ export const StyledSection = styled.section`
 export const StyledWrapper = styled.div``;
 
 export const StyledContainer = styled.div`
-  width: 100%;
   max-width: 1100px;
   margin: 0 auto;
 

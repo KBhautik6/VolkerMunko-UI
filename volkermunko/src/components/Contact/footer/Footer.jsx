@@ -10,6 +10,7 @@ import {
   StyledRightContainer,
   StyledVerticalLine,
 } from "./Footer.styled";
+import footerlogo from "../../../assets/vm-logo-2.png"
 
 export const Footer = () => {
   return (
@@ -19,7 +20,7 @@ export const Footer = () => {
           <StyledWrapperInner>
             <StyledFooterWrapper>
               <StyledFooterIcon
-                src="https://i.postimg.cc/Kcr77HW8/raw-vm.png"
+                src={footerlogo}
                 alt="footerlogo"
               />
               <StyledFooterDescription>
