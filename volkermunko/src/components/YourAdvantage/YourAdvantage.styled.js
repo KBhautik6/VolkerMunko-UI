@@ -108,7 +108,7 @@ export const StyledHeading = styled.div`
 export const StyledDescription = styled.p`
   font-family: "Nunito-Regular";
   font-size: 16px;
-  line-height: 1.72;
+  line-height: 22px;
   color: #3b3b3c;
   max-width: 565px;
   width: 100%;
