@@ -101,7 +101,7 @@ export const StyledHeading = styled.div`
 
     &::before {
       width: 100%;
-      max-width:260px
+      max-width: 260px;
     }
   }
 `;

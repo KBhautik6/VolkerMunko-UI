@@ -94,7 +94,7 @@ export const StyledProductServicesList = styled.ul`
 
 export const StyledProductList = styled.li`
   position: relative;
-  max-width:295px;
+  max-width: 295px;
   width: 100%;
   height: 400px;
   margin: 89px 0 38px 30px;
@@ -145,7 +145,7 @@ export const StyledProductMoreInfoImg = styled.img`
   object-fit: contain;
 
   ${StyledProductList}:hover & {
-    text-align:center;
+    text-align: center;
   }
 `;
 

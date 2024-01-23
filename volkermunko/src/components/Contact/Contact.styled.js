@@ -30,7 +30,7 @@ export const Iframe = styled.iframe`
 `;
 
 export const StyledContactLeft = styled.div`
-  max-width:49%;
+  max-width: 49%;
   width: 100%;
   margin: 175px 0 0 45px;
 
@@ -52,21 +52,21 @@ export const StyledMapWrapper = styled.div`
 
 export const StyledMapIframe = styled.iframe`
   max-width: 450px;
-  width:100%;
+  width: 100%;
   height: 400px;
   border: 0;
   border-radius: 22px;
 
   @media screen and (max-width: 991px) {
     max-width: 300px;
-    width:100%;
+    width: 100%;
     height: 300px;
   }
 `;
 
 export const StyledContactRight = styled.div`
   max-width: 49%;
-  width:100%;
+  width: 100%;
   margin: 100px 0 0;
 
   @media screen and (max-width: 991px) {
@@ -101,7 +101,7 @@ export const StyledContact = styled.h3`
 
     &:before {
       max-width: 20px;
-      width:100%;
+      width: 100%;
     }
   }
 `;
