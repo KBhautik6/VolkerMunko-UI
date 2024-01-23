@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="App">
       <GlobalStyles />
-      <AssetManagement/>
+      <AssetManagement />
       <CompleteFinance />
       <Product />
       <YourAdvantage />

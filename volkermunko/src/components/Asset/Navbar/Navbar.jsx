@@ -9,16 +9,14 @@ import {
   StyledMobileViewWrapper,
   StyledMobileView,
 } from "../Asset.styled";
-import NavbarLogo from "../../../assets/vm-logo.png"
+import NavbarLogo from "../../../assets/vm-logo.png";
+import HamburgerNavbar from "../../../assets/group-15.jpeg";
 
 export const Navbar = () => {
   return (
     <>
       <StyledNavbarWrapper>
-        <StyledNavbarLogo
-          src={NavbarLogo}
-          alt="Navbar Logo"
-        />
+        <StyledNavbarLogo src={NavbarLogo} alt="Navbar Logo" />
         <StyledNavbarTextWrapper>
           <StyledNavbarWhyAssetMangement>
             Why asset management
@@ -27,10 +25,7 @@ export const Navbar = () => {
           <StyledNavbarContactButton>Contact</StyledNavbarContactButton>
         </StyledNavbarTextWrapper>
         <StyledMobileViewWrapper>
-          <StyledMobileView
-            src="https://i.ibb.co/ZKGPHPg/3-bars.jpg"
-            alt="navbar"
-          />
+          <StyledMobileView src={HamburgerNavbar} alt="navbar" />
         </StyledMobileViewWrapper>
       </StyledNavbarWrapper>
     </>

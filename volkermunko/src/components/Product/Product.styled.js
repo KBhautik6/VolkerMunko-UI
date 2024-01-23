@@ -124,6 +124,9 @@ export const StyledProductList = styled.li`
       transition: transform 0.3s ease;
     }
   }
+  @media screen and (max-width: 767px) {
+    margin: 0 0 20px 0;
+  }
 `;
 
 export const StyledProductMoreInfoImgWrapper = styled.div`
@@ -158,7 +161,7 @@ export const StyledServiceImage = styled.img`
 
 export const StyledServiceHeadingWrapper = styled.div`
   text-align: center;
-  margin: 75px 0px 0 0px;
+  margin: 75px 0 0 0;
 `;
 
 export const StyledServiceHeading = styled.h4`
@@ -204,6 +207,7 @@ export const StyledPrivateWrapper = styled.div`
   color: #fff;
   margin: 0;
   text-shadow: 4px 4px 20px #fff;
+  font-family: "Nunito-Regular";
 
   @media screen and (max-width: 991px) {
     font-size: 9px;
@@ -240,4 +244,5 @@ export const StyledCorporateWrapper = styled.div`
   color: #000;
   margin: 0;
   text-shadow: 4px 4px 20px #fff;
+  font-family: "Nunito-Regular";
 `;

@@ -20,8 +20,7 @@ import {
 } from "./Product.styled";
 import { ProductData } from "../Data";
 import { Service } from "./Service";
-import man from "../../assets/man.png"
-import corporateman from "../../assets/group-53.png"
+import { man, corporateman } from "../index";
 
 export const Product = () => {
   return (
@@ -39,23 +38,16 @@ export const Product = () => {
                 The point aseof using Lorem Ipsum is that it has a more-or-less
                 normal distribution of letters
               </StyledProductContentText>
-
               <StyledProductCustom>
                 <StyledProductCustomWrapper>
                   <StyledPrivateBox>
                     <StyledPrivateWrapper>
-                      <StyledCustomIcon
-                        src={man}
-                        alt="private"
-                      />
+                      <StyledCustomIcon src={man} alt="private" />
                       Private Customer
                     </StyledPrivateWrapper>
                   </StyledPrivateBox>
                   <StyledCorporateWrapper>
-                    <StyledCustomIcon
-                      src={corporateman}
-                      alt="corporate"
-                    />
+                    <StyledCustomIcon src={corporateman} alt="corporate" />
                     Corporate Customers
                   </StyledCorporateWrapper>
                 </StyledProductCustomWrapper>

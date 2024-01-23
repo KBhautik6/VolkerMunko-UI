@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledSection = styled.section`
-  background-image: url('https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/b8ebc7b6-3e25-4f50-a136-6d9bbcc23102.svg');
+  background-image: url("https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/b8ebc7b6-3e25-4f50-a136-6d9bbcc23102.svg");
   background-repeat: no-repeat;
   background-size: cover;
 `;
@@ -70,7 +70,7 @@ export const StyledFooterDetails = styled.footer`
   justify-content: space-between;
   color: #ffffff;
   margin: 0 19px 20px;
-  padding:33px 120px 33px 118px;
+  padding: 33px 120px 33px 118px;
   font-family: "Nunito-Regular";
 
   @media screen and (max-width: 991px) {

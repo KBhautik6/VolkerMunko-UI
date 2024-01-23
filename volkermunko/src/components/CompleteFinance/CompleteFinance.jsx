@@ -23,8 +23,8 @@ import {
   StyledDescriptionWrapper,
   StyledDescription,
 } from "./CompleteFinance.styled";
-import Topservice from "../../assets/rectangle-1352.png"
-import exzellent from "../../assets/rectangle-1353.png"
+import { Topservice } from "../index";
+import { exzellent } from "../index";
 
 export const CompleteFinance = () => {
   return (
@@ -68,10 +68,7 @@ export const CompleteFinance = () => {
                       </StyledImageWrapper>
                       <StyledLine>&nbsp;</StyledLine>
                       <StyledImageWrapper>
-                        <StyledBookImage
-                          src={exzellent}
-                          alt="exzellent"
-                        />
+                        <StyledBookImage src={exzellent} alt="exzellent" />
                       </StyledImageWrapper>
                     </StyledImageBoxWrapper>
                     <StyledDescriptionWrapper>

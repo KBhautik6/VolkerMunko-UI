@@ -13,7 +13,7 @@ import {
   StyledBannerImage,
 } from "./Asset.styled";
 import { Navbar } from "./Navbar/Navbar";
-import BannerImage from "../../assets/group-10811.png"
+import { BannerImage } from "../index";
 
 export const AssetManagement = () => {
   return (
@@ -34,10 +34,7 @@ export const AssetManagement = () => {
                   normal distribution
                 </StyledLeftContentText>
                 <StyledBannerImageWrapper>
-                  <StyledBannerImage
-                    src={BannerImage}
-                    alt="navbar-img"
-                  />
+                  <StyledBannerImage src={BannerImage} alt="navbar-img" />
                 </StyledBannerImageWrapper>
                 <StyledLeftButtonWrapper>
                   <StyledLeftBtn>Contact Us</StyledLeftBtn>

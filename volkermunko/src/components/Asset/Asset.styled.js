@@ -1,11 +1,11 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const StyledNavbarWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #f8f8f8;
-  max-width: 1330;
+  max-width: 1088px;
   width: 100%;
   height: 105px;
 `;
@@ -149,7 +149,7 @@ export const StyledLeftContentHeading = styled.h3`
   width: 100%;
   margin: 60px 0 40px;
   position: relative;
-  z-index:1;
+  z-index: 1;
 
   &::after {
     content: "";

@@ -12,7 +12,7 @@ export const StyledInnerWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:0 0 60px 0;
+  margin: 0 0 60px 0;
 
   @media screen and (max-width: 991px) {
     flex-direction: column;
@@ -44,7 +44,7 @@ export const StyledMapWrapper = styled.div`
   width: 100%;
   max-width: 50%;
 
-  @media screen and  (max-width: 991px) {
+  @media screen and (max-width: 991px) {
     max-width: 100%;
   }
 `;
@@ -55,9 +55,9 @@ export const StyledMapIframe = styled.iframe`
   border: 0;
   border-radius: 22px;
 
-  @media screen and (max-width:991px) {
-     width: 300px;
-  height: 300px;
+  @media screen and (max-width: 991px) {
+    width: 300px;
+    height: 300px;
   }
 `;
 
@@ -154,17 +154,17 @@ export const StyledMapIcon = styled.img`
 export const StyledMapAddress = styled.p`
   margin: 10px 0 0px 35px;
   font-family: "Nunito-Bold";
-  font-size:20px;
+  font-size: 20px;
 
   @media screen and (max-width: 991px) {
     font-size: 14px;
   }
 `;
 
-export const StyledLink=styled.a`
-text-decoration:none;
-color: #14183e;
-`
+export const StyledLink = styled.a`
+  text-decoration: none;
+  color: #14183e;
+`;
 
 export const StyledPhoneNumberWrapper = styled.div`
   display: flex;
@@ -183,7 +183,7 @@ export const StyledPhoneIcon = styled.img`
 export const StyledPhoneNumber = styled.p`
   margin: 10px 0 0px 35px;
   font-family: "Nunito-Bold";
-  font-size:20px;
+  font-size: 20px;
 
   @media screen and (max-width: 991px) {
     font-size: 14px;
@@ -206,7 +206,7 @@ export const StyledMailIcon = styled.img`
 
 export const StyledMail = styled.div`
   margin: 10px 0 0px 35px;
-  font-size:20px;
+  font-size: 20px;
   font-family: "Nunito-Bold";
 
   @media screen and (max-width: 991px) {

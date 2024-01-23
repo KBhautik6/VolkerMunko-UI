@@ -10,7 +10,7 @@ import {
   StyledRightContainer,
   StyledVerticalLine,
 } from "./Footer.styled";
-import footerlogo from "../../../assets/vm-logo-2.png"
+import { footerlogo } from "../../index";
 
 export const Footer = () => {
   return (
@@ -19,10 +19,7 @@ export const Footer = () => {
         <StyledWrapper>
           <StyledWrapperInner>
             <StyledFooterWrapper>
-              <StyledFooterIcon
-                src={footerlogo}
-                alt="footerlogo"
-              />
+              <StyledFooterIcon src={footerlogo} alt="footerlogo" />
               <StyledFooterDescription>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.

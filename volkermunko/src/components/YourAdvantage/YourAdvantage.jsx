@@ -15,7 +15,7 @@ import {
   StyledContentNumber,
   StyledContent,
 } from "./YourAdvantage.styled";
-import AdvantageImage from "../../assets/group-68.png";
+import { AdvantageImage } from "../index";
 
 export const YourAdvantage = () => {
   return (
@@ -25,7 +25,10 @@ export const YourAdvantage = () => {
           <StyledWrapper>
             <StyledCard>
               <StyledLeftYourAdvantage>
-                <StyledRightImage src={AdvantageImage} alt="Advanatages"></StyledRightImage>
+                <StyledRightImage
+                  src={AdvantageImage}
+                  alt="Advanatages"
+                ></StyledRightImage>
               </StyledLeftYourAdvantage>
               <StyledRightYourAdvantage>
                 <StyledRightWrapper>
