@@ -94,7 +94,8 @@ export const StyledProductServicesList = styled.ul`
 
 export const StyledProductList = styled.li`
   position: relative;
-  width: 295px;
+  max-width:295px;
+  width: 100%;
   height: 400px;
   margin: 89px 0 38px 30px;
   padding: 25px 28px 42px 35px;
@@ -105,7 +106,7 @@ export const StyledProductList = styled.li`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: black;
+    background-color: #000;
     color: #ffffff;
 
     &::before {
@@ -134,7 +135,6 @@ export const StyledProductMoreInfoImgWrapper = styled.div`
 
   ${StyledProductList}:hover & {
     text-align: right;
-    visibility: visible;
   }
 `;
 
@@ -145,7 +145,7 @@ export const StyledProductMoreInfoImg = styled.img`
   object-fit: contain;
 
   ${StyledProductList}:hover & {
-    visibility: visible;
+    text-align:center;
   }
 `;
 

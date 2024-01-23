@@ -39,7 +39,6 @@ export const WealthManagement = () => {
                   </StyledWealthListWrapper>
                 </StyledWealthLeftWrapper>
               </StyledWealthLeft>
-
               <StyledWealthRight>
                 <StyledWealthRightInner>
                   <StyledWealthRightList>

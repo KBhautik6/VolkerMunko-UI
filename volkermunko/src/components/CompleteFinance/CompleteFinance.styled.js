@@ -33,6 +33,7 @@ export const StyledLeftCompleteFinance = styled.div`
 export const StyledLeftInner = styled.div``;
 
 export const StyledHeadingWrapper = styled.div`
+  position: relative;
   font-family: "Quicksand-Bold";
   font-size: 51px;
   line-height: 72px;
@@ -40,7 +41,6 @@ export const StyledHeadingWrapper = styled.div`
   max-width: 565px;
   width: 100%;
   margin: 0 0 40px;
-  position: relative;
 
   &::before {
     content: "";

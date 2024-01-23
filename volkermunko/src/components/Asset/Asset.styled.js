@@ -11,14 +11,16 @@ export const StyledNavbarWrapper = styled.div`
 `;
 
 export const StyledNavbarLogo = styled.img`
-  width: 120px;
+  max-width: 120px;
+  width:100%;
   height: 72px;
   padding: 34px 0 0 78px;
 
   @media screen and (max-width: 991px) {
     padding: 0;
     height: 54px;
-    width: 90px;
+    max-width:90px;
+    width: 100%;
   }
 `;
 
@@ -32,7 +34,8 @@ export const StyledMobileViewWrapper = styled.div`
 `;
 
 export const StyledMobileView = styled.img`
-  width: 30px;
+  max-width: 30px;
+  width:100%;
   height: 30px;
 `;
 
@@ -47,7 +50,8 @@ export const StyledNavbarWhyAssetMangement = styled.li`
   @media screen and (min-width: 991px) {
     display: inline;
     float: left;
-    width: 250px;
+    max-width: 250px;
+    width:100%;
     height: 27px;
     font-family: "Quicksand-Bold";
     font-size: 20px;
@@ -205,12 +209,12 @@ export const StyledBannerImage = styled.img`
 
 export const StyledLeftButtonWrapper = styled.div`
   position: relative;
-  width: 100%;
-  max-width: 210px;
-  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  max-width: 210px;
+  height: 50px;
   border-radius: 12px;
   margin: 50px 0 20px;
   padding: 10px 20px;

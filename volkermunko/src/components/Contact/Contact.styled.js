@@ -30,7 +30,8 @@ export const Iframe = styled.iframe`
 `;
 
 export const StyledContactLeft = styled.div`
-  width: 49%;
+  max-width:49%;
+  width: 100%;
   margin: 175px 0 0 45px;
 
   @media screen and (max-width: 991px) {
@@ -50,19 +51,22 @@ export const StyledMapWrapper = styled.div`
 `;
 
 export const StyledMapIframe = styled.iframe`
-  width: 450px;
+  max-width: 450px;
+  width:100%;
   height: 400px;
   border: 0;
   border-radius: 22px;
 
   @media screen and (max-width: 991px) {
-    width: 300px;
+    max-width: 300px;
+    width:100%;
     height: 300px;
   }
 `;
 
 export const StyledContactRight = styled.div`
-  width: 49%;
+  max-width: 49%;
+  width:100%;
   margin: 100px 0 0;
 
   @media screen and (max-width: 991px) {
@@ -96,7 +100,8 @@ export const StyledContact = styled.h3`
     margin: 50px 0 20px;
 
     &:before {
-      width: 20px;
+      max-width: 20px;
+      width:100%;
     }
   }
 `;
