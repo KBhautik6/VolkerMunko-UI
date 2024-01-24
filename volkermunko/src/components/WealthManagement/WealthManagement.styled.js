@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import { house, backgroundWealthmanagement } from "../index";
 
 export const StyledSection = styled.section`
   position: relative;
-  background: url("https://i.postimg.cc/JhLD8Bb7/wealthmanagement.png");
+  background: url(${backgroundWealthmanagement});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -11,7 +12,7 @@ export const StyledSection = styled.section`
 
   &:before {
     content: "";
-    background: url("https://i.postimg.cc/g2SBj5yr/househand.png");
+    background: url(${house});
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 560px 620px;

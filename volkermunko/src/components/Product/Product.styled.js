@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { backgroundImageContact } from "../index";
 
 export const StyledSection = styled.section`
   display: flex;
@@ -9,8 +10,7 @@ export const StyledSection = styled.section`
 
   &::before {
     content: "";
-    background: url(https://owl-finanzservice.de/assets/images/product-before.svg)
-      no-repeat;
+    background: url(${backgroundImageContact}) no-repeat;
     height: 100px;
     width: 100%;
     background-size: 100%;
@@ -30,7 +30,8 @@ export const StyledWrapper = styled.div`
   &::before {
     content: "";
     position: absolute;
-    background-image: url("https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/4c70244a-b294-4264-9b08-d933a2910183.svg");
+    top: 0;
+    left: 20px;
   }
 
   @media screen and (min-width: 747px) and (max-width: 1200px) {

@@ -58,6 +58,11 @@ export const StyledHeadingWrapper = styled.div`
     font-size: 24px;
     line-height: 64px;
     margin: 0 0 40px 0;
+
+    &::before {
+      max-width: 327px;
+      width: 100%;
+    }
   }
 `;
 

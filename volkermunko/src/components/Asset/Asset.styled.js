@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { person } from "../index";
 
 export const StyledNavbarContactButton = styled.button`
   display: none;
@@ -33,8 +34,7 @@ export const StyledSection = styled.section`
 `;
 
 export const StyledWrapper = styled.div`
-  background: url("https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/315bba66-2840-4652-bca2-8c3ccf59bcb2.png")
-    no-repeat;
+  background: url(${person}) no-repeat;
   background-size: 660px 640px;
   background-position: right 20px bottom 10px;
   height: 650px;

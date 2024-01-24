@@ -8,3 +8,8 @@ export { default as mail } from "../assets/group-10824-3.png";
 export { default as phone } from "../assets/group-10824-2.png";
 export { default as footerlogo } from "../assets/vm-logo-2.png";
 export { default as BannerImage } from "../assets/group-10811.png";
+export { default as person } from "../assets/group-10811.png";
+export { default as footerBackground } from "../assets/group-10902.png";
+export { default as backgroundImageContact } from "../assets/product-before.png";
+export { default as house } from "../assets/house-protection-bank-removebg-preview.png";
+export { default as backgroundWealthmanagement } from "../assets/group-10818.png";

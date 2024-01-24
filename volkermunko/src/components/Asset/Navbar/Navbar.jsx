@@ -3,7 +3,7 @@ import {
   StyledNavbarSection,
   StyledNavbarWrapper,
   StyledNavbarInner,
-  StyledNavbarFlex,
+  StyledNavbarFlexHeader,
   StyledNavbarLogo,
   StyledNavbarLogoWrapper,
   StyledNavbarBoxWrapper,
@@ -22,7 +22,7 @@ export const Navbar = () => {
       <StyledNavbarSection>
         <StyledNavbarWrapper>
           <StyledNavbarInner>
-            <StyledNavbarFlex>
+            <StyledNavbarFlexHeader>
               <StyledNavbarLogoWrapper>
                 <StyledNavbarLogo src={NavbarLogo} alt="Vm-logo" />
               </StyledNavbarLogoWrapper>
@@ -41,7 +41,7 @@ export const Navbar = () => {
                   alt="HamburgerNavbar"
                 />
               </StyledNavbarBoxWrapper>
-            </StyledNavbarFlex>
+            </StyledNavbarFlexHeader>
           </StyledNavbarInner>
         </StyledNavbarWrapper>
       </StyledNavbarSection>

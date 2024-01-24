@@ -22,11 +22,6 @@ export const StyledNavbarInner = styled.div`
   }
 `;
 
-export const StyledNavbarFlex = styled.header`
-  display: flex;
-  justify-content: space-between;
-`;
-
 export const StyledNavbarLogoWrapper = styled.div`
   width: 100%;
   max-width: 440px;
@@ -49,17 +44,22 @@ export const StyledNavbarWhyWrapper = styled.div`
   width: 100%;
   max-width: 272px;
   height: 27px;
-  margin: 22px 24px 19px 1px;
   font-family: "Nunito-SemiBold";
   font-size: 20px;
   line-height: 12px;
   letter-spacing: 2px;
   text-align: left;
   color: #37415c;
+  margin: 22px 24px 19px 1px;
 
   @media screen and (max-width: 991px) {
     display: none;
   }
+`;
+
+export const StyledNavbarFlexHeader = styled.header`
+  display: flex;
+  justify-content: space-between;
 `;
 
 export const StyledNavbarAboutWrapper = styled.div`
@@ -84,7 +84,7 @@ export const StyledContactButton = styled.button`
   height: 50px;
   border-radius: 10px;
   border: none;
-  background-color: #fff;
+  background-color: #ffffff;
   margin: 5px 0px;
 
   @media screen and (max-width: 991px) {
@@ -120,7 +120,7 @@ export const StyledHamburgerNavbar = styled.img`
   @media screen and (max-width: 991px) {
     display: block;
     width: 100%;
-    max-width:21px;
+    max-width: 21px;
     height: 14px;
     position: absolute;
     margin: 20px 0 0 0;
