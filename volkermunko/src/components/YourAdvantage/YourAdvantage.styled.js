@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 export const StyledSection = styled.section`
   padding: 100px 0;
-  margin: 800px 0 -800px 0;
+
 
   @media screen and (max-width: 991px) {
     padding: 50px 0;
-    margin: 3300px 0 0 0;
   }
 `;
 
