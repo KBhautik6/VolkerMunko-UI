@@ -48,12 +48,10 @@ export const StyledInnerWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 180px 0;
 
   @media screen and (max-width: 991px) {
     flex-direction: column;
     align-items: flex-start;
-    padding: 140px 0 70px;
   }
 `;
 
@@ -100,10 +98,6 @@ export const StyledHeading = styled.div`
 
 export const StyledWealthListWrapper = styled.ul`
   list-style: none;
-
-  @media screen and (max-width: 991px) {
-    margin: 300px 0 0;
-  }
 `;
 
 export const StyledWealthList = styled.li`
