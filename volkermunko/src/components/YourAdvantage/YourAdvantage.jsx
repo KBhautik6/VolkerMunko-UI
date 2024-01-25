@@ -7,7 +7,7 @@ import {
   StyledRightImage,
   StyledRightYourAdvantage,
   StyledSection,
-  StyledContainer,
+  StyledInner,
   StyledWrapper,
   StyledRightWrapper,
   StyledLeftYourAdvantage,
@@ -16,12 +16,14 @@ import {
   StyledContent,
 } from "./YourAdvantage.styled";
 import { AdvantageImage } from "../index";
+import { ContainerStyleds } from "../Global.styled";
 
 export const YourAdvantage = () => {
   return (
     <>
       <StyledSection>
-        <StyledContainer>
+        <StyledInner>
+          <ContainerStyleds>
           <StyledWrapper>
             <StyledCard>
               <StyledLeftYourAdvantage>
@@ -57,7 +59,8 @@ export const YourAdvantage = () => {
               </StyledRightYourAdvantage>
             </StyledCard>
           </StyledWrapper>
-        </StyledContainer>
+          </ContainerStyleds>
+        </StyledInner>
       </StyledSection>
     </>
   );

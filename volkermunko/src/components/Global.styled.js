@@ -6,12 +6,13 @@ import NunitoLight from "../fonts/Nunito-Light.ttf";
 import NunitoSemiBold from "../fonts/Nunito-SemiBold.ttf";
 import NunitoMedium from "../fonts/Nunito-Medium.ttf";
 import QuicksandBold from "../fonts/Quicksand-Bold.ttf";
+import {theme} from "./theme"
 
 export const GlobalStyles = createGlobalStyle`
   border-style {
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: ${theme.white};
   }
 
   @font-face {
@@ -55,3 +56,18 @@ export const GlobalStyles = createGlobalStyle`
     font-style: normal;
   }
 `;
+
+export const ContainerStyled = styled.div`
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 991px) {
+    max-width:max-content;
+  }
+`;
+
+export const ContainerStyleds=styled.div`
+ max-width: 1088px;
+  margin: 0 auto;
+`

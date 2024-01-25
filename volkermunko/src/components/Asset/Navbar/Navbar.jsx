@@ -13,18 +13,19 @@ import {
   StyledNavbarContactWrapper,
   StyledHamburgerNavbar,
 } from "./Navbar.styled";
-import NavbarLogo from "../../../assets/vm-logo.png";
-import HamburgerNavbar from "../../../assets/group-15.jpeg";
+import { NavbarLogo, HamburgerNavbar } from "../../index";
+import {ContainerStyled} from "../../Global.styled"
 
 export const Navbar = () => {
   return (
     <>
       <StyledNavbarSection>
+        <ContainerStyled>
         <StyledNavbarWrapper>
           <StyledNavbarInner>
             <StyledNavbarFlexHeader>
               <StyledNavbarLogoWrapper>
-                <StyledNavbarLogo src={NavbarLogo} alt="Vm-logo" />
+                <StyledNavbarLogo src={NavbarLogo} alt="volker-munko" />
               </StyledNavbarLogoWrapper>
               <StyledNavbarBoxWrapper>
                 <StyledNavbarWhyWrapper>
@@ -38,12 +39,13 @@ export const Navbar = () => {
                 </StyledContactButton>
                 <StyledHamburgerNavbar
                   src={HamburgerNavbar}
-                  alt="HamburgerNavbar"
+                  alt="Hamburger-Navbar"
                 />
               </StyledNavbarBoxWrapper>
             </StyledNavbarFlexHeader>
           </StyledNavbarInner>
         </StyledNavbarWrapper>
+        </ContainerStyled>
       </StyledNavbarSection>
     </>
   );

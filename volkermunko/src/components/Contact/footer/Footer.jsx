@@ -7,19 +7,22 @@ import {
   StyledFooterDescription,
   StyledFooterHorizontalLine,
   StyledFooterDetails,
-  StyledRightContainer,
-  StyledVerticalLine,
+  StyledRightFooter,
+  StyledRightInner,
+  StyledFooterText,
 } from "./Footer.styled";
 import { footerlogo } from "../../index";
+import { ContainerStyled } from "../../Global.styled";
 
 export const Footer = () => {
   return (
     <>
       <StyledSection>
         <StyledWrapper>
-          <StyledWrapperInner>
+         <ContainerStyled>
+         <StyledWrapperInner>
             <StyledFooterWrapper>
-              <StyledFooterIcon src={footerlogo} alt="footerlogo" />
+              <StyledFooterIcon src={footerlogo} alt="footer-logo" />
               <StyledFooterDescription>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
@@ -31,14 +34,19 @@ export const Footer = () => {
           <StyledFooterHorizontalLine />
           <StyledFooterDetails>
             @2020 Volker Munko
-            <StyledRightContainer>
-              Privacy policy
-              <StyledVerticalLine />
-              Imprint
-              <StyledVerticalLine />
-              Cookie Policy
-            </StyledRightContainer>
+            <StyledRightFooter>
+              <StyledRightInner>
+                <StyledFooterText>Privacy policy</StyledFooterText>
+              </StyledRightInner>
+              <StyledRightInner>
+                <StyledFooterText>Imprint</StyledFooterText>
+              </StyledRightInner>
+              <StyledRightInner>
+                <StyledFooterText>Cookie Policy</StyledFooterText>
+              </StyledRightInner>
+            </StyledRightFooter>
           </StyledFooterDetails>
+         </ContainerStyled>
         </StyledWrapper>
       </StyledSection>
     </>

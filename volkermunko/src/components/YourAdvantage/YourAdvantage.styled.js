@@ -1,19 +1,17 @@
 import styled from "styled-components";
+import {theme} from "../theme"
 
 export const StyledSection = styled.section`
   padding: 100px 0;
-
 
   @media screen and (max-width: 991px) {
     padding: 50px 0;
   }
 `;
 
-export const StyledContainer = styled.div`
-  width: 100%;
-  max-width: 1088px;
+export const StyledInner = styled.div`
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: ${theme.white};
 `;
 
 export const StyledWrapper = styled.div`
@@ -63,17 +61,13 @@ export const StyledRightYourAdvantage = styled.div`
   @media screen and (max-width: 991px) {
     width: 100%;
   }
-
-  @media screen and (max-width: 991px) {
-    width: 100%;
-  }
 `;
 
 export const StyledHeading = styled.div`
-  font-family: "Quicksand-Bold";
+  font-family: Quicksand-Bold;
   font-size: 51px;
   line-height: 72px;
-  color: #14183e;
+  color: ${theme.darkBlue};
   max-width: 565px;
   width: 100%;
   margin: 50px 0 20px;
@@ -89,7 +83,12 @@ export const StyledHeading = styled.div`
     width: 100%;
     height: 68px;
     z-index: -1;
-    background: linear-gradient(to bottom, #f8e9ed, #fbfbfb);
+    background:${theme.pinkGraindientSecond};
+
+    @media screen and (max-width: 991px) {
+      width: 100%;
+      max-width: 260px;
+    }
   }
 
   @media screen and (max-width: 991px) {
@@ -97,19 +96,14 @@ export const StyledHeading = styled.div`
     font-size: 22px;
     line-height: 27px;
     margin: 0 0 20px 0;
-
-    &::before {
-      width: 100%;
-      max-width: 260px;
-    }
   }
 `;
 
 export const StyledDescription = styled.p`
-  font-family: "Nunito-Regular";
+  font-family: Nunito-Regular;
   font-size: 16px;
   line-height: 22px;
-  color: #3b3b3c;
+  color: ${theme.blackThird};
   max-width: 565px;
   width: 100%;
 
@@ -137,7 +131,7 @@ export const StyledCard = styled.div`
   margin: 19px 0 1px;
   border-radius: 24px;
   box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: ${theme.white};
 
   @media screen and (max-width: 991px) {
     flex-direction: column;
@@ -161,15 +155,15 @@ export const StyledContentNumber = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(#767678, #3b3b3c);
+  background:${theme.blackGrandient};
   width: 34px;
   height: 34px;
   border-radius: 50px;
   margin: 0 25px 0 0;
-  font-family: "Nunito-Regular";
+  font-family: Nunito-Regular;
   font-size: 16px;
   line-height: 12px;
-  color: #ffffff;
+  color:${theme.white};
 
   @media screen and (max-width: 991px) {
     font-size: 12px;
@@ -181,11 +175,11 @@ export const StyledContentNumber = styled.div`
 `;
 
 export const StyledContent = styled.p`
-  font-family: "Nunito-Regular";
+  font-family: Nunito-Regular;
   font-size: 20px;
   font-weight: 600;
   line-height: 34px;
-  color: #37415c;
+  color: ${theme.blackThirdSecond};
 
   @media screen and (max-width: 991px) {
     font-size: 13px;

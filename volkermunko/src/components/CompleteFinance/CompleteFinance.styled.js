@@ -1,12 +1,9 @@
 import styled from "styled-components";
+import {theme} from "../theme"
 
 export const StyledSection = styled.section``;
 
 export const StyledWrapper = styled.div`
-  width: 100%;
-  max-width: 1088px;
-  margin: 0 auto;
-
   @media only screen and (max-width: 1199px) {
     padding: 0 20px;
   }
@@ -16,11 +13,13 @@ export const StyledInnerWrapper = styled.div`
   padding: 50px 0 100px;
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: 991px) {
+    padding: 0;
+  }
 `;
 
 export const StyledLeftCompleteFinance = styled.div`
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,10 +33,10 @@ export const StyledLeftInner = styled.div``;
 
 export const StyledHeadingWrapper = styled.div`
   position: relative;
-  font-family: "Quicksand-Bold";
+  font-family: Quicksand-Bold;
   font-size: 51px;
   line-height: 72px;
-  color: #14183e;
+  color: ${theme.darkBlue};
   max-width: 565px;
   width: 100%;
   margin: 0 0 40px;
@@ -51,18 +50,18 @@ export const StyledHeadingWrapper = styled.div`
     width: 100%;
     height: 68px;
     z-index: -1;
-    background: linear-gradient(to bottom, #f8e9ed, #fbfbfb);
+    background: ${theme.pinkGraindient};
+
+    @media screen and (max-width: 991px) {
+      max-width: 327px;
+      width: 100%;
+    }
   }
 
   @media screen and (max-width: 991px) {
     font-size: 24px;
     line-height: 64px;
     margin: 0 0 40px 0;
-
-    &::before {
-      max-width: 327px;
-      width: 100%;
-    }
   }
 `;
 
@@ -73,11 +72,11 @@ export const StyledHeading = styled.div`
 `;
 
 export const StyledCompleteTextWrapper = styled.div`
-  font-family: "Nunito-Regular";
+  font-family: Nunito-Regular;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
-  color: #3b3b3c;
+  color: ${theme.blackThird};
   max-width: 565px;
   width: 100%;
 
@@ -91,7 +90,7 @@ export const StyledCompleteText = styled.div``;
 
 export const StyledButtonWrapper = styled.button`
   position: relative;
-  background: radial-gradient(#fff, #e6e6e6);
+  background:${theme.grayGrandient};
   max-width: 210px;
   width: 100%;
   height: 60px;
@@ -102,14 +101,14 @@ export const StyledButtonWrapper = styled.button`
   border: transparent;
   margin: 50px 0 20px;
   padding: 10px 20px;
-  font-family: "Nunito-Bold";
+  font-family: Nunito-Bold;
   font-size: 18px;
   line-height: 18px;
-  color: #14183e;
+  color: ${theme.darkBlue};
 
   &:hover {
-    background: #000;
-    color: white;
+    background: ${theme.black};
+    color: ${theme.white};
   }
 `;
 
@@ -131,10 +130,10 @@ export const StyledRightContent = styled.div`
 `;
 
 export const StyledExcellentHeadingWrapper = styled.div`
-  font-family: "Quicksand-Bold";
+  font-family: Quicksand-Bold;
   font-size: 29px;
   line-height: 44px;
-  color: #14183e;
+  color:${theme.darkBlue};
   position: relative;
   padding: 0 0 0 70px;
   margin: 0 0 40px 0;
@@ -146,17 +145,17 @@ export const StyledExcellentHeadingWrapper = styled.div`
     top: 50%;
     height: 2px;
     width: 50px;
-    background: #3b3b3c;
+    background:${theme.blackThird};
+
+    @media screen and (max-width: 991px) {
+      max-width: 327px;
+    }
   }
 
   @media screen and (max-width: 991px) {
     font-size: 17px;
     padding: 0 0 0 50px;
     margin: 40px 0 20px;
-
-    &::before {
-      width: 30px;
-    }
   }
 `;
 
@@ -165,7 +164,7 @@ export const StyledExcellentHeading = styled.div``;
 export const StyledRightBox = styled.div`
   padding: 40px;
   border-radius: 23px;
-  border: 1px solid #cfcfcf;
+  border: 1px solid ${theme.grayOne};
 
   @media screen and (max-width: 991px) {
     padding: 30px;
@@ -186,21 +185,22 @@ export const StyledImageWrapper = styled.div`
 `;
 
 export const StyledBookImage = styled.img`
+  width: 100%;
   max-width: 70%;
 `;
 
 export const StyledLine = styled.div`
-  background: #cfcfcf;
+  background: ${theme.grayOne};
   width: 1px;
   height: 130px;
   margin: 0 30px;
 `;
 
 export const StyledDescriptionWrapper = styled.div`
-  font-family: "Nunito-Regular";
+  font-family: Nunito-Regular;
   font-size: 16px;
   line-height: 28px;
-  color: #707684;
+  color: ${theme.blackSeven};
   text-align: center;
   margin: 40px 0 0;
 

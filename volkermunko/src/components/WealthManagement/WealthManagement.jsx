@@ -2,7 +2,7 @@ import React from "react";
 import {
   StyledSection,
   StyledWrapper,
-  StyledContainer,
+  StyledInner,
   StyledInnerWrapper,
   StyledWealthLeft,
   StyledWealthLeftWrapper,
@@ -14,14 +14,16 @@ import {
 } from "./WealthManagement.styled";
 import { WealthProps } from "./WealthProps";
 import { Wdata, WdataSecond } from "../Data";
+import {ContainerStyleds} from "../Global.styled"
 
 export const WealthManagement = () => {
   return (
     <>
       <StyledSection>
         <StyledWrapper>
-          <StyledContainer>
-            <StyledInnerWrapper>
+          <StyledInner>
+           <ContainerStyleds>
+           <StyledInnerWrapper>
               <StyledWealthLeft>
                 <StyledWealthLeftWrapper>
                   <StyledHeading>
@@ -53,7 +55,8 @@ export const WealthManagement = () => {
                 </StyledWealthRightInner>
               </StyledWealthRight>
             </StyledInnerWrapper>
-          </StyledContainer>
+           </ContainerStyleds>
+          </StyledInner>
         </StyledWrapper>
       </StyledSection>
     </>

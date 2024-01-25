@@ -9,17 +9,17 @@ import {
   StyledServiceHeading,
   StyledServiceContactBtnWrapper,
   StyledServiceContactBtn,
-} from "./Product.styled";
+} from "./Service.styled";
 
 export const Service = (props) => {
   return (
     <>
       <StyledProductList>
         <StyledProductMoreInfoImgWrapper>
-          <StyledProductMoreInfoImg src={props.moreinfosrc} alt="moreinfo" />
+          <StyledProductMoreInfoImg src={props.moreinfosrc} alt="more-info" />
         </StyledProductMoreInfoImgWrapper>
         <StyledServiceImageWrapper>
-          <StyledServiceImage src={props.serviceimg} alt="service-image" />
+          <StyledServiceImage src={props.serviceimg} alt="service" />
         </StyledServiceImageWrapper>
         <StyledServiceHeadingWrapper>
           <StyledServiceHeading>{props.title}</StyledServiceHeading>

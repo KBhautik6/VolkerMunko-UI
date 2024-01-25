@@ -1,20 +1,15 @@
 import styled from "styled-components";
+import {theme} from "../../theme";
 
 export const StyledNavbarSection = styled.section``;
 
 export const StyledNavbarWrapper = styled.div`
-  width: 100%;
-  max-width: 1366px;
-  margin: 0 auto;
-  background-color: #f9f9f9;
-
-  @media screen and (max-width: 991px) {
-  }
+  background-color: ${theme.whiteNine};
 `;
 
 export const StyledNavbarInner = styled.div`
   margin: 0 19px 20px;
-  padding: 33px 120px 0 118px;
+  padding: 33px 90px 0 88px;
 
   @media screen and (max-width: 991px) {
     margin: 0;
@@ -44,12 +39,12 @@ export const StyledNavbarWhyWrapper = styled.div`
   width: 100%;
   max-width: 272px;
   height: 27px;
-  font-family: "Nunito-SemiBold";
-  font-size: 20px;
+  font-family: Nunito-SemiBold;
+  font-size:18px;
   line-height: 12px;
   letter-spacing: 2px;
   text-align: left;
-  color: #37415c;
+  color: ${theme.blackThirdSecond};
   margin: 22px 24px 19px 1px;
 
   @media screen and (max-width: 991px) {
@@ -67,11 +62,11 @@ export const StyledNavbarAboutWrapper = styled.div`
   max-width: 110px;
   height: 27px;
   margin: 27px 13px 4px 3px;
-  font-family: "Nunito-SemiBold";
+  font-family: Nunito-SemiBold;
   font-size: 20px;
   line-height: 2px;
   text-align: left;
-  color: #37415c;
+  color: ${theme.blackThirdSecond};
 
   @media screen and (max-width: 991px) {
     display: none;
@@ -84,7 +79,7 @@ export const StyledContactButton = styled.button`
   height: 50px;
   border-radius: 10px;
   border: none;
-  background-color: #ffffff;
+  background-color: ${theme.white};
   margin: 5px 0px;
 
   @media screen and (max-width: 991px) {
@@ -93,11 +88,11 @@ export const StyledContactButton = styled.button`
 `;
 
 export const StyledNavbarContactWrapper = styled.p`
-  font-family: "Nunito-SemiBold";
+  font-family: Nunito-SemiBold;
   font-size: 16px;
   font-weight: 900;
   line-height: 3px;
-  color: #3b3b3c;
+  color: ${theme.blackThird};
 
   @media (max-width: 991px) {
     display: none;

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { person } from "../index";
+import {theme} from "../theme"
 
 export const StyledNavbarContactButton = styled.button`
   display: none;
@@ -7,25 +8,26 @@ export const StyledNavbarContactButton = styled.button`
   @media screen and (min-width: 991px) {
     display: inline;
     float: left;
-    width: 136px;
+    max-width: 136px;
+    width: 100%;
     height: 50px;
     margin: -16px 20px;
     padding: 15px 41px 13px 38px;
     border-radius: 10px;
     border: 1px solid transparent;
-    background-color: #fff;
-    font-family: "Quicksand-Bold";
+    background-color: ${theme.white};
+    font-family: Quicksand-Bold;
     font-size: 16px;
 
     &:hover {
-      background-image: radial-gradient(#767678, #3b3b3c);
-      color: #ffffff;
+      background-image: ${theme.blackGrandient};
+      color:${theme.white};
     }
   }
 `;
 
 export const StyledSection = styled.section`
-  background: linear-gradient(180deg, #f8f8f8, #fff);
+  background:${theme.lowWhiteGradient};
   position: relative;
 
   @media screen and (max-width: 991px) {
@@ -66,10 +68,10 @@ export const StyledNavbarContent = styled.div``;
 export const StyledLeftContent = styled.div``;
 
 export const StyledLeftContentHeading = styled.h3`
-  font-family: "Quicksand-Bold";
+  font-family: Quicksand-Bold;
   font-size: 54px;
   line-height: 76px;
-  color: #14183e;
+  color: ${theme.darkBlue};
   max-width: 565px;
   width: 100%;
   margin: 60px 0 40px;
@@ -85,7 +87,7 @@ export const StyledLeftContentHeading = styled.h3`
     width: 100%;
     height: 68px;
     z-index: -1;
-    background: linear-gradient(to bottom, #f8e9ed, #fbfbfb);
+    background: ${theme.pinkGraindient};
   }
 
   @media screen and (max-width: 991px) {
@@ -96,10 +98,10 @@ export const StyledLeftContentHeading = styled.h3`
 `;
 
 export const StyledLeftContentText = styled.div`
-  font-family: "Nunito-Regular";
+  font-family: Nunito-Regular;
   font-size: 16px;
   line-height: 27px;
-  color: #3b3b3c;
+  color: ${theme.blackThird};
   max-width: 565px;
   width: 100%;
 
@@ -139,26 +141,25 @@ export const StyledLeftButtonWrapper = styled.div`
   border-radius: 12px;
   margin: 50px 0 20px;
   padding: 10px 20px;
-  font-family: "Nunito-Bold";
+  font-family: Nunito-Bold;
   font-size: 1;
   line-height: 27px;
-  color: #ffffff;
+  color: ${theme.white};
 
   @media screen and (max-width: 991px) {
-    margin: 20px 0 0 0;
+    margin: 20px auto 0;
     height: 50px;
     font-size: 14px;
-    max-width: 100%;
   }
 `;
 
 export const StyledLeftBtn = styled.button`
   text-align: center;
-  font-family: "Nunito-Regular";
+  font-family: Nunito-Regular;
   font-size: 18px;
   font-weight: 500;
-  color: #ffffff;
-  background-image: radial-gradient(#767678, #3b3b3c);
+  color: ${theme.white};
+  background-image:${theme.blackGrandient};
   border-radius: 10px;
   padding: 19px 56px;
   cursor: pointer;

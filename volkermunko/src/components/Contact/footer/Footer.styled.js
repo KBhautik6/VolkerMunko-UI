@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { footerBackground } from "../../index";
+import {theme} from "../../theme"
 
 export const StyledSection = styled.section`
   background-image: url(${footerBackground});
@@ -8,22 +9,16 @@ export const StyledSection = styled.section`
 `;
 
 export const StyledWrapper = styled.div`
-  width: 100%;
-  max-width: 1366px;
-  margin: 0 auto;
-
-  @media screen and (max-width: 991px) {
-    max-width: max-content;
-  }
 `;
 
 export const StyledWrapperInner = styled.div`
-  margin: 0 19px 20px;
-  padding: 33px 120px 0 118px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto;
 
   @media screen and (max-width: 991px) {
-    margin: 0;
-    padding: 0;
+    margin:0;
   }
 `;
 
@@ -44,35 +39,32 @@ export const StyledFooterIcon = styled.img`
 
   @media screen and (max-width: 991px) {
     max-width: 86px;
+    width:100%;
     height: 67px;
-    padding: 113px 0 0 0;
+    margin:30px 0 0 0;
   }
 `;
 
 export const StyledFooterDescription = styled.div`
   padding: 12px 0 0 0;
   text-align: center;
-  color: #ffffff;
+  color: ${theme.white};
   line-height: 32px;
-  font-family: "Quicksand-Bold";
+  font-family: Quicksand-Bold;
 `;
 
 export const StyledFooterHorizontalLine = styled.hr`
-  margin: 100px 0 0 0;
-  background-color: #ffffff;
-
-  @media screen and (max-width: 991px) {
-    margin: 50px 0 0 0;
-  }
+  margin: 50px 0 0 0;
+  background-color: ${theme.white};
 `;
 
 export const StyledFooterDetails = styled.footer`
   display: flex;
-  justify-content: space-between;
-  color: #ffffff;
-  margin: 0 19px 20px;
-  padding: 33px 120px 33px 118px;
-  font-family: "Nunito-Regular";
+  justify-content: space-around;
+  align-items: center;
+  color: ${theme.white};
+  padding:33px 0 ;
+  font-family: Nunito-Regular;
 
   @media screen and (max-width: 991px) {
     margin: 0;
@@ -81,13 +73,42 @@ export const StyledFooterDetails = styled.footer`
   }
 `;
 
-export const StyledRightContainer = styled.div`
+export const StyledRightFooter = styled.div`
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  @media screen and (max-width: 991px) {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 `;
 
-export const StyledVerticalLine = styled.div`
-  height: 12px;
-  width: 0;
-  border: 1px solid #000000;
-  margin: 0 12px 0;
+export const StyledRightInner = styled.div`
+  padding: 0 10px;
+  position:relative;
+
+  &:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: ${theme.black};  
+    left: 0;
+    top: 0;
+  }
+
+  @media screen and (max-width: 991px) {
+    padding: 0 16px 0 0;
+  }
+`;
+
+export const StyledFooterText = styled.p`
+  font-family: Nunito-Regular;
+  font-size: 16px;
+  line-height: 20px;
+
+  @media screen and (max-width: 991px) {
+    font-family: 12px;
+  }
 `;

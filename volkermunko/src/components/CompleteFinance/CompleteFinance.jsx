@@ -25,12 +25,14 @@ import {
 } from "./CompleteFinance.styled";
 import { Topservice } from "../index";
 import { exzellent } from "../index";
+import { ContainerStyleds } from "../Global.styled";
 
 export const CompleteFinance = () => {
   return (
     <>
       <StyledSection>
         <StyledWrapper>
+          <ContainerStyleds>
           <StyledInnerWrapper>
             <StyledLeftCompleteFinance>
               <StyledLeftInner>
@@ -82,6 +84,7 @@ export const CompleteFinance = () => {
               </StyledRightInner>
             </StyledLeftCompleteFinance>
           </StyledInnerWrapper>
+          </ContainerStyleds>
         </StyledWrapper>
       </StyledSection>
     </>

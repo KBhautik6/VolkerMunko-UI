@@ -34,7 +34,7 @@ export const AssetManagement = () => {
                   normal distribution
                 </StyledLeftContentText>
                 <StyledBannerImageWrapper>
-                  <StyledBannerImage src={BannerImage} alt="navbar-img" />
+                  <StyledBannerImage src={BannerImage} alt="navigations" />
                 </StyledBannerImageWrapper>
                 <StyledLeftButtonWrapper>
                   <StyledLeftBtn>Contact Us</StyledLeftBtn>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {theme} from "../theme"
 
 export const StyledSection = styled.section``;
 
@@ -24,9 +25,6 @@ export const Iframe = styled.iframe`
   width: 400px;
   height: 400px;
   border-radius: 20px;
-
-  @media screen and (max-width: 991px) {
-  }
 `;
 
 export const StyledContactLeft = styled.div`
@@ -51,9 +49,7 @@ export const StyledMapWrapper = styled.div`
 `;
 
 export const StyledMapIframe = styled.iframe`
-  max-width: 450px;
-  width: 100%;
-  height: 400px;
+  width: 450px;
   border: 0;
   border-radius: 22px;
 
@@ -71,19 +67,18 @@ export const StyledContactRight = styled.div`
 
   @media screen and (max-width: 991px) {
     margin: 0 auto;
-    max-width: 100%;
   }
 `;
 
 export const StyledContactRightWrapper = styled.div``;
 
 export const StyledContact = styled.h3`
-  font-family: "Nunito-Regular";
+  font-family: Nunito-Regular;
   font-weight: 600;
   margin: 0 0 0 23px;
   line-height: 28px;
   text-align: left;
-  color: #14183e;
+  color:${theme.darkBlue};
 
   &:before {
     content: "";
@@ -91,18 +86,18 @@ export const StyledContact = styled.h3`
     margin: 13px 0 0 -30px;
     height: 2px;
     width: 22px;
-    background: #3b3b3c;
+    background: ${theme.blackThird};
+
+    @media screen and (max-width: 991px) {
+      max-width: 20px;
+      width: 100%;
+    }
   }
 
   @media screen and (max-width: 991px) {
     font-size: 17px;
     padding: 0 0 0 30px;
     margin: 50px 0 20px;
-
-    &:before {
-      max-width: 20px;
-      width: 100%;
-    }
   }
 `;
 
@@ -112,12 +107,12 @@ export const StyledContactHeadingWrapper = styled.div`
 
 export const StyledContactHeading = styled.h2`
   margin: 0 0 9px;
-  font-family: "Nunito-Bold";
+  font-family: Nunito-Bold;
   font-size: 51px;
   font-weight: 700;
   line-height: 76px;
   text-align: left;
-  color: #14183e;
+  color: ${theme.darkBlue};
 
   &::before {
     content: "";
@@ -128,17 +123,17 @@ export const StyledContactHeading = styled.h2`
     width: 100%;
     height: 68px;
     z-index: -1;
-    background: linear-gradient(to bottom, #f8e9ed, #fbfbfb);
+    background:${theme.pinkGraindientSecond};
+
+    @media screen and (max-width: 991px) {
+      height: 30px;
+    }
   }
 
   @media screen and (max-width: 991px) {
     font-size: 24px;
     line-height: 31px;
     margin: 0 0 30px 0;
-
-    &::before {
-      height: 30px;
-    }
   }
 `;
 
@@ -158,7 +153,7 @@ export const StyledMapIcon = styled.img`
 
 export const StyledMapAddress = styled.p`
   margin: 10px 0 0px 35px;
-  font-family: "Nunito-Bold";
+  font-family: Nunito-Bold;
   font-size: 20px;
 
   @media screen and (max-width: 991px) {
@@ -168,7 +163,7 @@ export const StyledMapAddress = styled.p`
 
 export const StyledLink = styled.a`
   text-decoration: none;
-  color: #14183e;
+  color: ${theme.darkBlue};
 `;
 
 export const StyledPhoneNumberWrapper = styled.div`
@@ -187,7 +182,7 @@ export const StyledPhoneIcon = styled.img`
 
 export const StyledPhoneNumber = styled.p`
   margin: 10px 0 0px 35px;
-  font-family: "Nunito-Bold";
+  font-family: Nunito-Bold;
   font-size: 20px;
 
   @media screen and (max-width: 991px) {
@@ -209,12 +204,12 @@ export const StyledMailIcon = styled.img`
   max-width: 60px;
 `;
 
-export const StyledMail = styled.div`
+export const StyledMail = styled.p`
   margin: 10px 0 0px 35px;
   font-size: 20px;
-  font-family: "Nunito-Bold";
+  font-family: Nunito-Bold;
 
   @media screen and (max-width: 991px) {
-    font-size: 14px;
+    font-size: 11px;
   }
 `;
