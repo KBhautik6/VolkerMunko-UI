@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { house, backgroundWealthmanagement } from "../index";
-import {theme} from "../theme"
+import { theme } from "../theme";
 
 export const StyledSection = styled.section`
   position: relative;
@@ -136,7 +136,7 @@ export const StyledWealthRight = styled.div`
   height: 950px;
   margin: 0 0 0 30px;
 
-  @media screen and (max-width:991px){
+  @media screen and (max-width: 991px) {
     margin: 0;
   }
 `;

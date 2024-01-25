@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {theme} from "../theme"
+import { theme } from "../theme";
 
 export const StyledSection = styled.section``;
 
@@ -78,7 +78,7 @@ export const StyledContact = styled.h3`
   margin: 0 0 0 23px;
   line-height: 28px;
   text-align: left;
-  color:${theme.darkBlue};
+  color: ${theme.darkBlue};
 
   &:before {
     content: "";
@@ -123,7 +123,7 @@ export const StyledContactHeading = styled.h2`
     width: 100%;
     height: 68px;
     z-index: -1;
-    background:${theme.pinkGraindientSecond};
+    background: ${theme.pinkGraindientSecond};
 
     @media screen and (max-width: 991px) {
       height: 30px;

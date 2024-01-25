@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { backgroundImageContact } from "../index";
-import {theme} from "../theme"
+import { theme } from "../theme";
 
 export const StyledSection = styled.section`
   display: flex;
@@ -65,9 +65,9 @@ export const StyledProductHeading = styled.h3`
 `;
 
 export const StyledProductContentText = styled.p`
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 20px 80px;
   font-family: Nunito-Regular;
   font-size: 16px;
@@ -94,6 +94,7 @@ export const StyledProductServicesList = styled.ul`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+position:relative;
   list-style-type: none;
 `;
 
@@ -134,7 +135,7 @@ export const StyledProductCustomWrapper = styled.div`
   height: 41px;
   border-radius: 36px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.03);
-  border: 1px solid  ${theme.pinkLight};
+  border: 1px solid ${theme.pinkLight};
   background-color: ${theme.white};
 
   @media screen and (max-width: 991px) {

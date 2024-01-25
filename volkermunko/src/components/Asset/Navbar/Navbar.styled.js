@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {theme} from "../../theme";
+import { theme } from "../../theme";
 
 export const StyledNavbarSection = styled.section``;
 
@@ -40,7 +40,7 @@ export const StyledNavbarWhyWrapper = styled.div`
   max-width: 272px;
   height: 27px;
   font-family: Nunito-SemiBold;
-  font-size:18px;
+  font-size: 18px;
   line-height: 12px;
   letter-spacing: 2px;
   text-align: left;

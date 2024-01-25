@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { person } from "../index";
-import {theme} from "../theme"
+import { theme } from "../theme";
 
 export const StyledNavbarContactButton = styled.button`
   display: none;
@@ -21,13 +21,13 @@ export const StyledNavbarContactButton = styled.button`
 
     &:hover {
       background-image: ${theme.blackGrandient};
-      color:${theme.white};
+      color: ${theme.white};
     }
   }
 `;
 
 export const StyledSection = styled.section`
-  background:${theme.lowWhiteGradient};
+  background: ${theme.lowWhiteGradient};
   position: relative;
 
   @media screen and (max-width: 991px) {
@@ -159,7 +159,7 @@ export const StyledLeftBtn = styled.button`
   font-size: 18px;
   font-weight: 500;
   color: ${theme.white};
-  background-image:${theme.blackGrandient};
+  background-image: ${theme.blackGrandient};
   border-radius: 10px;
   padding: 19px 56px;
   cursor: pointer;

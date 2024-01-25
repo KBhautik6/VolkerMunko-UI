@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { footerBackground } from "../../index";
-import {theme} from "../../theme"
+import { theme } from "../../theme";
 
 export const StyledSection = styled.section`
   background-image: url(${footerBackground});
@@ -8,17 +8,16 @@ export const StyledSection = styled.section`
   background-size: cover;
 `;
 
-export const StyledWrapper = styled.div`
-`;
+export const StyledWrapper = styled.div``;
 
 export const StyledWrapperInner = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin:0 auto;
+  margin: 0 auto;
 
   @media screen and (max-width: 991px) {
-    margin:0;
+    margin: 0;
   }
 `;
 
@@ -39,9 +38,9 @@ export const StyledFooterIcon = styled.img`
 
   @media screen and (max-width: 991px) {
     max-width: 86px;
-    width:100%;
+    width: 100%;
     height: 67px;
-    margin:30px 0 0 0;
+    margin: 30px 0 0 0;
   }
 `;
 
@@ -63,7 +62,7 @@ export const StyledFooterDetails = styled.footer`
   justify-content: space-around;
   align-items: center;
   color: ${theme.white};
-  padding:33px 0 ;
+  padding: 33px 0;
   font-family: Nunito-Regular;
 
   @media screen and (max-width: 991px) {
@@ -86,14 +85,14 @@ export const StyledRightFooter = styled.div`
 
 export const StyledRightInner = styled.div`
   padding: 0 10px;
-  position:relative;
+  position: relative;
 
   &:not(:last-child)::before {
     content: "";
     position: absolute;
     height: 100%;
     width: 1px;
-    background-color: ${theme.black};  
+    background-color: ${theme.black};
     left: 0;
     top: 0;
   }

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {theme} from "../theme"
+import { theme } from "../theme";
 
 export const StyledSection = styled.section``;
 
@@ -90,7 +90,7 @@ export const StyledCompleteText = styled.div``;
 
 export const StyledButtonWrapper = styled.button`
   position: relative;
-  background:${theme.grayGrandient};
+  background: ${theme.grayGrandient};
   max-width: 210px;
   width: 100%;
   height: 60px;
@@ -133,7 +133,7 @@ export const StyledExcellentHeadingWrapper = styled.div`
   font-family: Quicksand-Bold;
   font-size: 29px;
   line-height: 44px;
-  color:${theme.darkBlue};
+  color: ${theme.darkBlue};
   position: relative;
   padding: 0 0 0 70px;
   margin: 0 0 40px 0;
@@ -145,7 +145,7 @@ export const StyledExcellentHeadingWrapper = styled.div`
     top: 50%;
     height: 2px;
     width: 50px;
-    background:${theme.blackThird};
+    background: ${theme.blackThird};
 
     @media screen and (max-width: 991px) {
       max-width: 327px;

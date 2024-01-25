@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {theme} from "../theme"
+import { theme } from "../theme";
 
 export const StyledSection = styled.section`
   padding: 100px 0;
@@ -83,7 +83,7 @@ export const StyledHeading = styled.div`
     width: 100%;
     height: 68px;
     z-index: -1;
-    background:${theme.pinkGraindientSecond};
+    background: ${theme.pinkGraindientSecond};
 
     @media screen and (max-width: 991px) {
       width: 100%;
@@ -111,6 +111,7 @@ export const StyledDescription = styled.p`
     text-align: center;
     font-size: 12px;
     line-height: 22px;
+    margin: 40px 0 0 0;
   }
 `;
 
@@ -155,7 +156,7 @@ export const StyledContentNumber = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background:${theme.blackGrandient};
+  background: ${theme.blackGrandient};
   width: 34px;
   height: 34px;
   border-radius: 50px;
@@ -163,7 +164,7 @@ export const StyledContentNumber = styled.div`
   font-family: Nunito-Regular;
   font-size: 16px;
   line-height: 12px;
-  color:${theme.white};
+  color: ${theme.white};
 
   @media screen and (max-width: 991px) {
     font-size: 12px;

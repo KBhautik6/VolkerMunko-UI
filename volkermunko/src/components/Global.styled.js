@@ -6,7 +6,7 @@ import NunitoLight from "../fonts/Nunito-Light.ttf";
 import NunitoSemiBold from "../fonts/Nunito-SemiBold.ttf";
 import NunitoMedium from "../fonts/Nunito-Medium.ttf";
 import QuicksandBold from "../fonts/Quicksand-Bold.ttf";
-import {theme} from "./theme"
+import { theme } from "./theme";
 
 export const GlobalStyles = createGlobalStyle`
   border-style {
@@ -63,11 +63,10 @@ export const ContainerStyled = styled.div`
   margin: 0 auto;
 
   @media screen and (max-width: 991px) {
-    max-width:max-content;
   }
 `;
 
-export const ContainerStyleds=styled.div`
- max-width: 1088px;
+export const ContainerStyleds = styled.div`
+  max-width: 1088px;
   margin: 0 auto;
-`
+`;
