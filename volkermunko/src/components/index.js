@@ -15,3 +15,4 @@ export { default as house } from "../assets/house-protection-bank-removebg-previ
 export { default as backgroundWealthmanagement } from "../assets/backgroundwealth.png";
 export { default as NavbarLogo } from "../assets/navbarlogo.png";
 export { default as HamburgerNavbar } from "../assets/HamburgerNavbar.jpeg";
+export {default as moreinfo} from  "../assets/information-button.svg";

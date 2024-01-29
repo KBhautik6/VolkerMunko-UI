@@ -21,11 +21,13 @@ import {
 import { ProductData } from "../Data";
 import { Service } from "./Service";
 import { man, corporateman } from "../index";
+import { ContainerStyled } from "../Global.styled";
 
 export const Product = () => {
   return (
     <>
       <StyledSection>
+        <ContainerStyled>
         <StyledWrapper>
           <StyledWrapperInner>
             <StyledProductContent>
@@ -70,6 +72,7 @@ export const Product = () => {
             </StyledProductContent>
           </StyledWrapperInner>
         </StyledWrapper>
+        </ContainerStyled>
       </StyledSection>
     </>
   );

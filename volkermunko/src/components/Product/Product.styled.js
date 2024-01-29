@@ -23,9 +23,8 @@ export const StyledSection = styled.section`
 `;
 
 export const StyledWrapper = styled.div`
-  max-width: 1330px;
-  width: 100%;
-  height: 747px;
+  max-height: 1180px;
+  heigth:100%;
   background-image: ${theme.lowWhiteOneGrandient};
 
   &::before {
@@ -38,7 +37,8 @@ export const StyledWrapper = styled.div`
   @media screen and (min-width: 747px) and (max-width: 1200px) {
     max-width: 1100px;
     width: 100%;
-    height: 747px;
+    max-height: 1180x;
+    height:100%;
   }
 `;
 

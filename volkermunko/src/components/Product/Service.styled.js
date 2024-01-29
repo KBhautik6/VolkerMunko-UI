@@ -2,12 +2,13 @@ import styled from "styled-components";
 import { theme } from "../theme";
 
 export const StyledWrapper = styled.div`
-  left: 0;
-  right: 0;
-  top: 0;
   position: relative;
   transition: opacity 0.3s ease;
   display:block;
+  left: 0;
+  right: 0;
+  top: 0;
+
   &:hover {
     cursor: pointer;
   }
@@ -19,12 +20,12 @@ export const StyledBack = styled.div`
   position: absolute;
   opacity: 0;
   transition: opacity 0.3s ease;
+
   &:hover {
     opacity: 1;
     display:block;
   }
 `;
-
 
 export const StyledFront = styled.div`
   left: 0;
@@ -47,8 +48,12 @@ export const StyledBackCard = styled.li`
   overflow: hidden;
   opacity: 1; 
   transition: opacity 0.3s ease;
-  
 
+  @media screen and (max-width: 767px) {
+    margin: 0 0 20px 0;
+    max-width: 175px;
+    width: 100%;
+  }
 `;
 
 export const StyledProductList = styled.li`
@@ -66,12 +71,8 @@ export const StyledProductList = styled.li`
 
   @media screen and (max-width: 767px) {
     margin: 0 0 20px 0;
-  }
-
-  &:hover {
-    ${StyledBackCard} {
-      opacity: 1;
-    }
+    max-width: 175px;
+    width: 100%;
   }
 `
 

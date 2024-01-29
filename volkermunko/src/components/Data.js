@@ -1,3 +1,5 @@
+import {moreinfo} from "./index"
+
 export const Wdata = [
   {
     id: 1,
@@ -62,38 +64,38 @@ export const WdataSecond = [
 export const ProductData = [
   {
     id: 1,
-    moreinfosrc: "https://i.ibb.co/VMY3FpC/information-button.jpg",
+    moreinfosrc: `${moreinfo}`,
     serviceimg: "https://i.ibb.co/WzfC1jn/img.jpg",
     title: "Benefit from government subsidies and save taxes",
   },
   {
     id: 2,
-    moreinfosrc: "https://i.ibb.co/VMY3FpC/information-button.jpg",
+    moreinfosrc: `${moreinfo}`,
     serviceimg: "https://i.ibb.co/WzfC1jn/img.jpg",
     title: "Benefit from government subsidies and save taxes",
   },
 
   {
     id: 3,
-    moreinfosrc: "https://i.ibb.co/VMY3FpC/information-button.jpg",
+    moreinfosrc: `${moreinfo}`,
     serviceimg: "https://i.ibb.co/WzfC1jn/img.jpg",
     title: "Benefit from government subsidies and save taxes",
   },
   {
     id: 4,
-    moreinfosrc: "https://i.ibb.co/VMY3FpC/information-button.jpg",
+    moreinfosrc: `${moreinfo}`,
     serviceimg: "https://i.ibb.co/WzfC1jn/img.jpg",
     title: "Benefit from government subsidies and save taxes",
   },
   {
     id: 5,
-    moreinfosrc: "https://i.ibb.co/VMY3FpC/information-button.jpg",
+    moreinfosrc:`${moreinfo}`,
     serviceimg: "https://i.ibb.co/WzfC1jn/img.jpg",
     title: "Benefit from government subsidies and save taxes",
   },
   {
     id: 6,
-    moreinfosrc: "https://i.ibb.co/VMY3FpC/information-button.jpg",
+    moreinfosrc:`${moreinfo}`,
     serviceimg: "https://i.ibb.co/WzfC1jn/img.jpg",
     title: "Benefit from government subsidies and save taxes",
   },

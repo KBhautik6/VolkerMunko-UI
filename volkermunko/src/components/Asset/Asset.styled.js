@@ -63,7 +63,11 @@ export const StyledInner = styled.div`
   }
 `;
 
-export const StyledNavbarContent = styled.div``;
+export const StyledNavbarContent = styled.div`
+  @media screen and (max-width:991px){
+    margin:0 0 0 20px;
+  }
+`;
 
 export const StyledLeftContent = styled.div``;
 
@@ -147,7 +151,6 @@ export const StyledLeftButtonWrapper = styled.div`
   color: ${theme.white};
 
   @media screen and (max-width: 991px) {
-    margin: 20px auto 0;
     height: 50px;
     font-size: 14px;
   }
