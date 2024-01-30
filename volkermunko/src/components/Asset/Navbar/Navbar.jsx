@@ -39,7 +39,7 @@ export const Navbar = () => {
                   </StyledContactButton>
                   <StyledHamburgerNavbar
                     src={HamburgerNavbar}
-                    alt="Hamburger-Navbar"
+                    alt="hamburger-navbar"
                   />
                 </StyledNavbarBoxWrapper>
               </StyledNavbarFlexHeader>

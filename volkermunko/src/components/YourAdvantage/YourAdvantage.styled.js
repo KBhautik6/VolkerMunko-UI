@@ -22,15 +22,10 @@ export const StyledWrapper = styled.div`
   box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.1);
   height: 590px;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 991px) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-
-  @media screen and (max-width: 768px) and (max-width: 991px) {
-    height: auto;
-    padding: 15px;
   }
 `;
 
@@ -44,6 +39,7 @@ export const StyledRightImage = styled.img`
 
   @media screen and (max-width: 991px) {
     max-width: 400px;
+    width:100%;
   }
 `;
 
@@ -128,7 +124,7 @@ export const StyledCard = styled.div`
   display: flex;
   width: 100%;
   height: 590px;
-  margin: 19px 0 1px;
+  margin: 18px 0 1px;
   border-radius: 24px;
   box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.1);
   background-color: ${theme.white};
@@ -147,7 +143,7 @@ export const StyledContentList = styled.li`
   justify-content: flex-start;
 
   @media screen and (max-width: 991px) {
-    margin: 0 0 15px 0;
+    margin: 0 0 14px 0;
   }
 `;
 
@@ -159,7 +155,7 @@ export const StyledContentNumber = styled.div`
   width: 34px;
   height: 34px;
   border-radius: 50px;
-  margin: 0 25px 0 0;
+  margin: 0 26px 0 0;
   font-family: Nunito-Regular;
   font-size: 16px;
   line-height: 12px;
@@ -169,7 +165,7 @@ export const StyledContentNumber = styled.div`
     font-size: 12px;
     width: 16px;
     height: 16px;
-    margin: 0 15px 0 0;
+    margin: 0 16px 0 0;
     padding: 10px;
   }
 `;

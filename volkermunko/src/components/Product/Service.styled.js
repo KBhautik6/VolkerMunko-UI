@@ -39,7 +39,7 @@ export const StyledBackCard = styled.li`
   max-width: 295px;
   width: 100%;
   height: 400px;
-  padding: 25px 28px 42px 35px;
+  padding: 24px 28px 42px 34px;
   margin:30px 30px 32px 0;
   border-radius: 20px;
   border: 1px solid ${theme.pinkAntiquePetal};
@@ -62,7 +62,7 @@ export const StyledProductList = styled.li`
   width: 100%;
   height: 400px;
   margin: 30px 30px 32px 0 ;
-  padding: 25px 28px 42px 35px;
+  padding: 24px 28px 42px 34px;
   border-radius: 20px;
   border: 1px solid ${theme.pinkAntiquePetal};
   background-color: ${theme.white};

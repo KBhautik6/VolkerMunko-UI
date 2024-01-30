@@ -12,6 +12,7 @@ export const StyledWrapper = styled.div`
 export const StyledInnerWrapper = styled.div`
   padding: 50px 0 100px;
   display: flex;
+  align-items:center;
   justify-content: space-between;
 
   @media screen and (max-width: 991px) {

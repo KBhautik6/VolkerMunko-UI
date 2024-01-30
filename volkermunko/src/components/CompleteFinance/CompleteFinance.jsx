@@ -65,7 +65,7 @@ export const CompleteFinance = () => {
                         <StyledImageWrapper>
                           <StyledBookImage
                             src={Topservice}
-                            alt="Top-service-Deutschland"
+                            alt="top-service-deutschland"
                           />
                         </StyledImageWrapper>
                         <StyledLine>&nbsp;</StyledLine>

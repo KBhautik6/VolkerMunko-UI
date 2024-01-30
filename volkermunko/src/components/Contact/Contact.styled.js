@@ -72,7 +72,7 @@ export const StyledContactRightWrapper = styled.div``;
 export const StyledContact = styled.h3`
   font-family: Nunito-Regular;
   font-weight: 600;
-  margin: 0 0 0 23px;
+  margin: 0 0 0 22px;
   line-height: 28px;
   text-align: left;
   color: ${theme.darkBlue};
@@ -80,7 +80,7 @@ export const StyledContact = styled.h3`
   &:before {
     content: "";
     position: absolute;
-    margin: 13px 0 0 -30px;
+    margin: 12px 0 0 -30px;
     height: 2px;
     width: 22px;
     background: ${theme.blackThird};
@@ -136,7 +136,7 @@ export const StyledContactHeading = styled.h2`
 
 export const StyledContactAddressWrapper = styled.div`
   display: flex;
-  margin: 35px 0;
+  margin: 34px 0;
   align-items: flex-start;
 
   @media screen and (max-width: 991px) {
@@ -149,7 +149,7 @@ export const StyledMapIcon = styled.img`
 `;
 
 export const StyledMapAddress = styled.p`
-  margin: 10px 0 0 35px;
+  margin: 10px 0 0 34px;
   font-family: Nunito-Bold;
   font-size: 20px;
 
@@ -178,7 +178,7 @@ export const StyledPhoneIcon = styled.img`
 `;
 
 export const StyledPhoneNumber = styled.p`
-  margin: 10px 0 0px 35px;
+  margin: 10px 0 0 34px;
   font-family: Nunito-Bold;
   font-size: 20px;
 
@@ -189,8 +189,9 @@ export const StyledPhoneNumber = styled.p`
 
 export const StyledMailWrapper = styled.div`
   display: flex;
-  margin: 35px 0;
+  justify-content:center;
   align-items: flex-start;
+  margin: 34px 0;
 
   @media screen and (max-width: 991px) {
     margin: 0 0 10px -40px;
@@ -202,7 +203,7 @@ export const StyledMailIcon = styled.img`
 `;
 
 export const StyledMail = styled.p`
-  margin: 10px 0 0px 35px;
+  margin: 10px 0 0px 34px;
   font-size: 20px;
   font-family: Nunito-Bold;
 

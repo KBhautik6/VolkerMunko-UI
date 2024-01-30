@@ -16,14 +16,16 @@ export const StyledSection = styled.section`
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 560px 620px;
-    width: 560px;
+    max-width: 560px;
+    width:100%;
     height: 620px;
     position: absolute;
     right: 0;
     top: 167px;
 
     @media screen and (max-width: 991px) {
-      width: 270px;
+      max-width: 270px;
+      width:100%;
       height: 290px;
       background-size: 270px 290px;
       top: 230px;
@@ -48,12 +50,10 @@ export const StyledInnerWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 180px 0;
 
   @media screen and (max-width: 991px) {
     flex-direction: column;
     align-items: flex-start;
-    padding: 140px 0 70px;
   }
 `;
 
@@ -82,7 +82,8 @@ export const StyledHeading = styled.div`
     left: 0;
     top: 230px ;
     height: 5px;
-    width: 190px;
+    max-width: 190px;
+    width:100%;
     background: ${theme.white};
 
     @media screen and (max-width: 991px) {
@@ -101,10 +102,6 @@ export const StyledHeading = styled.div`
 
 export const StyledWealthListWrapper = styled.ul`
   list-style: none;
-
-  @media screen and (max-width: 991px) {
-    margin: 300px 0 0;
-  }
 `;
 
 export const StyledWealthList = styled.li`

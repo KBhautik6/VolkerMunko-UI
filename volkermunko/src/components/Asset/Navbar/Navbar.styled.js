@@ -8,7 +8,7 @@ export const StyledNavbarWrapper = styled.div`
 `;
 
 export const StyledNavbarInner = styled.div`
-  margin: 0 19px 20px;
+  margin: 0 18px 20px;
   padding: 34px 30px 0 40px;
 
   @media screen and (max-width: 991px) {

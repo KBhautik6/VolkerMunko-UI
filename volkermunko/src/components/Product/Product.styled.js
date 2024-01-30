@@ -24,7 +24,7 @@ export const StyledSection = styled.section`
 
 export const StyledWrapper = styled.div`
   max-height: 1180px;
-  heigth:100%;
+  height:100%;
   background-image: ${theme.whiteLightGrandient};
 
   &::before {
@@ -68,7 +68,7 @@ export const StyledProductContentText = styled.p`
   color: ${theme.gulfBlue};
 
   @media screen and (max-width: 991px) {
-    margin: 24px 2px 23px 1px;
+    margin: 24px 2px 22px 1px;
     font-family: Nunito-Regular;
     font-size: 12px;
     line-height: 20px;
@@ -122,6 +122,8 @@ export const StyledPrivateWrapper = styled.div`
 
 export const StyledProductCustomWrapper = styled.div`
   display: flex;
+  justify-content:center;
+  align-items:center;
   width: 100%;
   max-width: 493px;
   height: 41px;
@@ -146,7 +148,7 @@ export const StyledCorporateWrapper = styled.div`
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: 9px 23px;
+  padding: 10px 22px;
   color: ${theme.black};
   margin: 0;
   text-shadow: 4px 4px 20px ${theme.white};

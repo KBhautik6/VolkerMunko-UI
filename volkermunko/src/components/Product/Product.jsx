@@ -53,7 +53,6 @@ export const Product = () => {
                   </StyledCorporateWrapper>
                 </StyledProductCustomWrapper>
               </StyledProductCustom>
-
               <StyledProductServicesWrapper>
                 <StyledProductServices>
                   <StyledProductServicesList>
