@@ -48,7 +48,7 @@ export const StyledRightImage = styled.img`
 `;
 
 export const StyledRightWrapper = styled.div`
-  margin: 0 70px 0 0;
+  margin: 0 50px 0 0;
 
   @media screen and (max-width: 991px) {
     margin: 30px 0 0;
@@ -83,7 +83,7 @@ export const StyledHeading = styled.div`
     width: 100%;
     height: 68px;
     z-index: -1;
-    background: ${theme.pinkGraindientSecond};
+    background: ${theme.pinkGraindentLight};
 
     @media screen and (max-width: 991px) {
       width: 100%;
@@ -117,7 +117,6 @@ export const StyledDescription = styled.p`
 
 export const StyledRightContent = styled.ul`
   margin: 50px 0 0;
-  list-style: none;
   list-style-type: none;
 
   @media screen and (max-width: 991px) {
@@ -180,7 +179,7 @@ export const StyledContent = styled.p`
   font-size: 20px;
   font-weight: 600;
   line-height: 34px;
-  color: ${theme.blackThirdSecond};
+  color: ${theme.gulfBlue};
 
   @media screen and (max-width: 991px) {
     font-size: 13px;

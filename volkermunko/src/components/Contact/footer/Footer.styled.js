@@ -31,15 +31,17 @@ export const StyledFooterWrapper = styled.div`
 `;
 
 export const StyledFooterIcon = styled.img`
-  padding: 65px 0 0 0;
+  padding: 48px 0 0 0;
   width: 100%;
   max-width: 188px;
-  height: 112px;
+  max-height: 112px;
+  height:100%;
 
   @media screen and (max-width: 991px) {
     max-width: 86px;
     width: 100%;
-    height: 67px;
+    max-height: 67px;
+    height:100%;
     margin: 30px 0 0 0;
   }
 `;
@@ -62,7 +64,7 @@ export const StyledFooterDetails = styled.footer`
   justify-content: space-around;
   align-items: center;
   color: ${theme.white};
-  padding: 33px 0;
+  padding: 32px 0;
   font-family: Nunito-Regular;
 
   @media screen and (max-width: 991px) {

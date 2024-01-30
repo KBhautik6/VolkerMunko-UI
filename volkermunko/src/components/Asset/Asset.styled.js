@@ -2,32 +2,8 @@ import styled from "styled-components";
 import { person } from "../index";
 import { theme } from "../theme";
 
-export const StyledNavbarContactButton = styled.button`
-  display: none;
-
-  @media screen and (min-width: 991px) {
-    display: inline;
-    float: left;
-    max-width: 136px;
-    width: 100%;
-    height: 50px;
-    margin: -16px 20px;
-    padding: 15px 41px 13px 38px;
-    border-radius: 10px;
-    border: 1px solid transparent;
-    background-color: ${theme.white};
-    font-family: Quicksand-Bold;
-    font-size: 16px;
-
-    &:hover {
-      background-image: ${theme.blackGrandient};
-      color: ${theme.white};
-    }
-  }
-`;
-
 export const StyledSection = styled.section`
-  background: ${theme.lowWhiteGradient};
+  background: ${theme.whiteLightGradient};
   position: relative;
 
   @media screen and (max-width: 991px) {
@@ -52,11 +28,9 @@ export const StyledWrapper = styled.div`
 `;
 
 export const StyledInner = styled.div`
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
   width: 100%;
-  max-width: 1088px;
-  margin: 0 auto;
 
   @media screen and (max-width: 991px) {
     flex-direction: column;
@@ -78,7 +52,6 @@ export const StyledLeftContentHeading = styled.h3`
   color: ${theme.darkBlue};
   max-width: 565px;
   width: 100%;
-  margin: 60px 0 40px;
   position: relative;
   z-index: 1;
 
@@ -105,7 +78,7 @@ export const StyledLeftContentText = styled.div`
   font-family: Nunito-Regular;
   font-size: 16px;
   line-height: 27px;
-  color: ${theme.blackThird};
+  color: ${theme.blackLight};
   max-width: 565px;
   width: 100%;
 
@@ -164,6 +137,6 @@ export const StyledLeftBtn = styled.button`
   color: ${theme.white};
   background-image: ${theme.blackGrandient};
   border-radius: 10px;
-  padding: 19px 56px;
+  padding: 14px 50px;
   cursor: pointer;
 `;

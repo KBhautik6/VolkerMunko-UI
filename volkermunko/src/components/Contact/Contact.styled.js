@@ -5,7 +5,6 @@ export const StyledSection = styled.section``;
 
 export const StyledWrapper = styled.div`
   width: 100%;
-  max-width: 1100px;
   margin: 0 auto;
 `;
 
@@ -13,7 +12,6 @@ export const StyledInnerWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0 60px 0;
 
   @media screen and (max-width: 991px) {
     flex-direction: column;
@@ -30,7 +28,7 @@ export const Iframe = styled.iframe`
 export const StyledContactLeft = styled.div`
   max-width: 49%;
   width: 100%;
-  margin: 175px 0 0 45px;
+  margin: 50px 0 0 46px;
 
   @media screen and (max-width: 991px) {
     margin: 0 auto;
@@ -63,7 +61,6 @@ export const StyledMapIframe = styled.iframe`
 export const StyledContactRight = styled.div`
   max-width: 49%;
   width: 100%;
-  margin: 100px 0 0;
 
   @media screen and (max-width: 991px) {
     margin: 0 auto;
@@ -123,7 +120,7 @@ export const StyledContactHeading = styled.h2`
     width: 100%;
     height: 68px;
     z-index: -1;
-    background: ${theme.pinkGraindientSecond};
+    background: ${theme.pinkGraindentLight};
 
     @media screen and (max-width: 991px) {
       height: 30px;
@@ -152,7 +149,7 @@ export const StyledMapIcon = styled.img`
 `;
 
 export const StyledMapAddress = styled.p`
-  margin: 10px 0 0px 35px;
+  margin: 10px 0 0 35px;
   font-family: Nunito-Bold;
   font-size: 20px;
 

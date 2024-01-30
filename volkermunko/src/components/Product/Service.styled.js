@@ -39,10 +39,10 @@ export const StyledBackCard = styled.li`
   max-width: 295px;
   width: 100%;
   height: 400px;
-  margin: 89px 0 38px 30px;
   padding: 25px 28px 42px 35px;
+  margin:30px 30px 32px 0;
   border-radius: 20px;
-  border: 1px solid ${theme.pinkLightSecond};
+  border: 1px solid ${theme.pinkAntiquePetal};
   background-color: ${theme.black};
   color: ${theme.white};
   overflow: hidden;
@@ -61,10 +61,10 @@ export const StyledProductList = styled.li`
   max-width: 295px;
   width: 100%;
   height: 400px;
-  margin: 89px 0 38px 30px;
+  margin: 30px 30px 32px 0 ;
   padding: 25px 28px 42px 35px;
   border-radius: 20px;
-  border: 1px solid ${theme.pinkLightSecond};
+  border: 1px solid ${theme.pinkAntiquePetal};
   background-color: ${theme.white};
   overflow: hidden;
   transition: background-color 0.3s ease;
@@ -103,7 +103,7 @@ export const StyledServiceImage = styled.img`
 
 export const StyledServiceHeadingWrapper = styled.div`
   text-align: center;
-  margin: 75px 0 0 0;
+  margin: 50px 0 0 0;
 `;
 
 export const StyledServiceHeading = styled.h4`
@@ -118,7 +118,7 @@ export const StyledServiceContactBtnWrapper = styled.div`
 export const StyledServiceContactBtn = styled.button`
   width: 188px;
   height: 50px;
-  background-color: ${theme.grayOne};
+  background-color: ${theme.grayLight};
   color: ${theme.darkBlue};
   border-radius: 10px;
   border: none;

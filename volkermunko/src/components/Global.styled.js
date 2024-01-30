@@ -9,7 +9,7 @@ import QuicksandBold from "../fonts/Quicksand-Bold.ttf";
 import { theme } from "./theme";
 
 export const GlobalStyles = createGlobalStyle`
-  border-style {
+  body {
     margin: 0;
     padding: 0;
     background-color: ${theme.white};
@@ -61,9 +61,6 @@ export const ContainerStyled = styled.div`
   width: 100%;
   max-width: 1366px;
   margin: 0 auto;
-
-  @media screen and (max-width: 991px) {
-  }
 `;
 
 export const ContainerStyleds = styled.div`

@@ -14,6 +14,7 @@ import {
 } from "./Asset.styled";
 import { Navbar } from "./Navbar/Navbar";
 import { BannerImage } from "../index";
+import { ContainerStyleds } from "../Global.styled";
 
 export const AssetManagement = () => {
   return (
@@ -22,7 +23,8 @@ export const AssetManagement = () => {
         <Navbar />
         <StyledWrapper>
           <StyledInner>
-            <StyledNavbarContent>
+          <ContainerStyleds>
+          <StyledNavbarContent>
               <StyledLeftContent>
                 <StyledLeftContentHeading>
                   Asset Management
@@ -41,6 +43,7 @@ export const AssetManagement = () => {
                 </StyledLeftButtonWrapper>
               </StyledLeftContent>
             </StyledNavbarContent>
+          </ContainerStyleds>
           </StyledInner>
         </StyledWrapper>
       </StyledSection>

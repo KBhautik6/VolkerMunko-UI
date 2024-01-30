@@ -135,7 +135,7 @@ export const StyledExcellentHeadingWrapper = styled.div`
   line-height: 44px;
   color: ${theme.darkBlue};
   position: relative;
-  padding: 0 0 0 70px;
+  padding: 0 0 0 50px;
   margin: 0 0 40px 0;
 
   &::before {
@@ -164,7 +164,7 @@ export const StyledExcellentHeading = styled.div``;
 export const StyledRightBox = styled.div`
   padding: 40px;
   border-radius: 23px;
-  border: 1px solid ${theme.grayOne};
+  border: 1px solid ${theme.grayLight};
 
   @media screen and (max-width: 991px) {
     padding: 30px;
@@ -186,11 +186,11 @@ export const StyledImageWrapper = styled.div`
 
 export const StyledBookImage = styled.img`
   width: 100%;
-  max-width: 70%;
+  max-width:70%;
 `;
 
 export const StyledLine = styled.div`
-  background: ${theme.grayOne};
+  background: ${theme.grayLight};
   width: 1px;
   height: 130px;
   margin: 0 30px;
@@ -200,7 +200,7 @@ export const StyledDescriptionWrapper = styled.div`
   font-family: Nunito-Regular;
   font-size: 16px;
   line-height: 28px;
-  color: ${theme.blackSeven};
+  color: ${theme.graySlate};
   text-align: center;
   margin: 40px 0 0;
 

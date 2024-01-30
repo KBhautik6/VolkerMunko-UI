@@ -48,10 +48,12 @@ export const StyledInnerWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 180px 0;
 
   @media screen and (max-width: 991px) {
     flex-direction: column;
     align-items: flex-start;
+    padding: 140px 0 70px;
   }
 `;
 
@@ -66,18 +68,19 @@ export const StyledHeading = styled.div`
   position: relative;
   max-width: 565px;
   width: 100%;
+  max-height:300px;
+  height:100%;
   font-family: Nunito-Bold;
   font-size: 52px;
   font-weight: 500;
   line-height: 74px;
   color: ${theme.white};
-  margin: 0 0 120px 0;
 
   &::before {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -50px;
+    top: 230px ;
     height: 5px;
     width: 190px;
     background: ${theme.white};
@@ -98,6 +101,10 @@ export const StyledHeading = styled.div`
 
 export const StyledWealthListWrapper = styled.ul`
   list-style: none;
+
+  @media screen and (max-width: 991px) {
+    margin: 300px 0 0;
+  }
 `;
 
 export const StyledWealthList = styled.li`
@@ -123,7 +130,7 @@ export const StyledWealthListText = styled.p`
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  color: ${theme.whiteThree};
+  color: ${theme.whiteLight};
 
   @media screen and (max-width: 991px) {
     font-size: 14px;

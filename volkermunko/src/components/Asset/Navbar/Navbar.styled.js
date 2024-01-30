@@ -4,12 +4,12 @@ import { theme } from "../../theme";
 export const StyledNavbarSection = styled.section``;
 
 export const StyledNavbarWrapper = styled.div`
-  background-color: ${theme.whiteNine};
+  background-color: ${theme.whitePrimary};
 `;
 
 export const StyledNavbarInner = styled.div`
   margin: 0 19px 20px;
-  padding: 33px 90px 0 88px;
+  padding: 34px 30px 0 40px;
 
   @media screen and (max-width: 991px) {
     margin: 0;
@@ -24,14 +24,14 @@ export const StyledNavbarLogoWrapper = styled.div`
   object-fit: contain;
 
   @media screen and (max-width: 991px) {
-    margin: 12px 71px 6px 12px;
+    margin: 8px 0 0 8px;
   }
 `;
 
 export const StyledNavbarLogo = styled.img`
   position: relative;
-  width: 100%;
   max-width: 108px;
+  width: 100%;
   height: 63px;
 `;
 
@@ -44,8 +44,8 @@ export const StyledNavbarWhyWrapper = styled.div`
   line-height: 12px;
   letter-spacing: 2px;
   text-align: left;
-  color: ${theme.blackThirdSecond};
-  margin: 22px 24px 19px 1px;
+  color: ${theme.gulfBlue};
+  margin: 22px 24px 20px 2px;
 
   @media screen and (max-width: 991px) {
     display: none;
@@ -61,12 +61,12 @@ export const StyledNavbarAboutWrapper = styled.div`
   width: 100%;
   max-width: 110px;
   height: 27px;
-  margin: 27px 13px 4px 3px;
+  margin: 28px 12px 4px 2px;
   font-family: Nunito-SemiBold;
   font-size: 20px;
   line-height: 2px;
   text-align: left;
-  color: ${theme.blackThirdSecond};
+  color: ${theme.gulfBlue};
 
   @media screen and (max-width: 991px) {
     display: none;
@@ -92,7 +92,7 @@ export const StyledNavbarContactWrapper = styled.p`
   font-size: 16px;
   font-weight: 900;
   line-height: 3px;
-  color: ${theme.blackThird};
+  color: ${theme.blackLight};
 
   @media (max-width: 991px) {
     display: none;

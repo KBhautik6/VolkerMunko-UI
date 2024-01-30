@@ -3,7 +3,6 @@ import {
   StyledSection,
   StyledWrapper,
   StyledWrapperInner,
-  StyledProductCurve,
   StyledProductContent,
   StyledProductHeadingWrapper,
   StyledProductHeading,

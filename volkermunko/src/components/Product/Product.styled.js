@@ -25,7 +25,7 @@ export const StyledSection = styled.section`
 export const StyledWrapper = styled.div`
   max-height: 1180px;
   heigth:100%;
-  background-image: ${theme.lowWhiteOneGrandient};
+  background-image: ${theme.whiteLightGrandient};
 
   &::before {
     content: "";
@@ -44,14 +44,6 @@ export const StyledWrapper = styled.div`
 
 export const StyledWrapperInner = styled.div``;
 
-export const StyledProductCurve = styled.img`
-  width: 1336px;
-  height: 2198px;
-  object-fit: contain;
-  background-color: ${theme.whiteEight};
-  position: relative;
-`;
-
 export const StyledProductContent = styled.div``;
 
 export const StyledProductHeadingWrapper = styled.div``;
@@ -68,12 +60,12 @@ export const StyledProductContentText = styled.p`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 80px;
+  margin: 20px auto;
   font-family: Nunito-Regular;
   font-size: 16px;
   line-height: 36px;
   text-align: center;
-  color: ${theme.blackThirdSecond};
+  color: ${theme.gulfBlue};
 
   @media screen and (max-width: 991px) {
     margin: 24px 2px 23px 1px;
@@ -81,7 +73,7 @@ export const StyledProductContentText = styled.p`
     font-size: 12px;
     line-height: 20px;
     text-align: center;
-    color: ${theme.blackThirdSecond};
+    color: ${theme.gulfBlue};
   }
 `;
 
@@ -94,7 +86,7 @@ export const StyledProductServicesList = styled.ul`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-position:relative;
+  position:relative;
   list-style-type: none;
 `;
 
@@ -109,7 +101,7 @@ export const StyledPrivateBox = styled.div`
   max-width: 244px;
   height: 41px;
   border-radius: 36px;
-  background-color: ${theme.grayFour};
+  background-color: ${theme.grayPayne};
 `;
 
 export const StyledPrivateWrapper = styled.div`
