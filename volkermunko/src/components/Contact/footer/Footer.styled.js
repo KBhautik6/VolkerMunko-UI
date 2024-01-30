@@ -34,8 +34,7 @@ export const StyledFooterIcon = styled.img`
   padding: 48px 0 0 0;
   width: 100%;
   max-width: 188px;
-  max-height: 112px;
-  height:100%;
+  height: 112px;
 
   @media screen and (max-width: 991px) {
     max-width: 86px;

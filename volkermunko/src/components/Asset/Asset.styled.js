@@ -119,7 +119,7 @@ export const StyledLeftButtonWrapper = styled.div`
   margin: 50px 0 20px;
   padding: 10px 20px;
   font-family: Nunito-Bold;
-  font-size: 1;
+  font-size: 21px;
   line-height: 27px;
   color: ${theme.white};
 

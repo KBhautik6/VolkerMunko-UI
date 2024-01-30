@@ -25,7 +25,7 @@ export const Navbar = () => {
             <StyledNavbarInner>
               <StyledNavbarFlexHeader>
                 <StyledNavbarLogoWrapper>
-                  <StyledNavbarLogo src={NavbarLogo} alt="volker-munko" />
+                  <StyledNavbarLogo src={NavbarLogo} alt="volker munko" />
                 </StyledNavbarLogoWrapper>
                 <StyledNavbarBoxWrapper>
                   <StyledNavbarWhyWrapper>
@@ -39,7 +39,7 @@ export const Navbar = () => {
                   </StyledContactButton>
                   <StyledHamburgerNavbar
                     src={HamburgerNavbar}
-                    alt="hamburger-navbar"
+                    alt="movile navigation"
                   />
                 </StyledNavbarBoxWrapper>
               </StyledNavbarFlexHeader>
